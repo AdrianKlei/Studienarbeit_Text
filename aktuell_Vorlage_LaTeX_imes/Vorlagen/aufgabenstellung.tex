@@ -1,0 +1,51 @@
+\newpage
+\pdfbookmark[0]{Vortext}{frontmatter}
+     \begin{flushright}
+          \vspace*{-20mm}
+          \includegraphics[width=\textwidth]{Abbildungen/CoverLogos.pdf}
+     \end{flushright}
+\vspace*{10mm} % mit \usepackage{printlen}: 1.8cm * \uselengthunit{cm}\printlength{\textwidth} / 16.01cm = -1.773cm -> passt nicht, 10mm durch optik
+{\let\clearpage\relax}\thispagestyle{empty}\pdfbookmark[1]{Aufgabenstellung}{aufgabenstellung}
+
+\begin{spacing}{1}        
+\begin{center}
+\large\textbf{Zeit- und Ortsabhängige Prädiktion von Umweltzuständen für die Vorhersage von Personen- Auftrittswahrscheinlichkeiten}
+
+\normalsize \Autor, Matrikelnummer \Matrikelnummer
+
+\end{center}
+
+\textbf{Allgemeines:}
+
+Am Campus Maschinenbau in Garbsen wird der Serviceroboter Sobi entwickelt, welcher Studenten und Besuchern Informationen bereitstellen und bei der Orientierung auf dem Campusgelände helfen soll. Um eine möglichst hohe Rate an Mensch-Roboter-Interaktionen zu erreichen, muss der Roboter Informationen über das zeit- und ortsabhängige Personenaufkommen auf dem Campusgelände zur Verfügung haben. Diese Informationen können für die Bahnplanung verwendet werden, um die voraussichtlich benötigte Zeit einer Kontaktaufnahme mit einem Menschen zu minimieren. In der Forschung existieren Modelle zur Prädiktion dieser Umweltzustände auf Basis von binären sowie quantitativen Darstellungen.
+
+\bigskip\textbf{Aufgabe:}
+
+Im Rahmen dieser Arbeit soll eine Methodik entwickelt und für den spezifischen Anwendungsfall am Maschinenbau-Campus Garbsen angepasst werden. Als Ansatz einer solchen Methodik kann das FreMEn- Modell dienen. Die Grundidee der Methode ist die Transformation binärer zeit- und ortsabhängiger Darstellungen elementarer Umweltzustände (in diesem Fall die Anwesenheit bzw. Nichtanwesenheit von Personen) in den Frequenzbereich mittels der Fouriertransformation. In diesem werden die dominantesten Frequenzen identifiziert und auf Basis dieser eine inverse Fouriertransformation durchgeführt. Als Ergebnis erhält man eine Funktion, welche die Wahrscheinlichkeit für die zukünftigen Umweltzustände angibt. \\
+
+Im Rahmen dieser Arbeit ergeben sich insbesondere die folgenden Aufgabenpunkte:
+
+\begin{itemize}
+	\item{Literaturrecherche über Methoden der binären sowie quantitativen Darstellung von Umweltzuständen}
+	\item{Entwicklung einer Methodik und Anpassung an den vorliegenden Anwendungsfall}
+	\item{Überprüfung der Modellgüte bei unterschiedlichen Periodendauern mittels eines Testdatensatzes}
+	\item{Überprüfung der Modellgüte bei unterschiedlichen Periodendauern mittels eines Simulations- Datensatzes oder eines Langzeitdatensatzes}
+	\item{Ermittlung weiterführender Fragestellungen zur Optimierung der kurzfristigen Vorhersagegüte des Modells}
+\end{itemize}
+
+Die Bearbeitungszeit beträgt 300 Stunden.
+
+\vfill
+\begin{center}
+\begin{tabular}{p{0.35\textwidth} p{0.35\textwidth}}
+Ausgabe der Aufgabenstellung:&15.06.2020\\
+Abgabe der Arbeit spätestens am:&15.01.2021\\
+Erstprüfer: \\
+Zweitprüfer: \\
+Betreuer: M. Sc. Marvin Stüde
+\end{tabular}
+\end{center}
+
+\end{spacing}
+% Leerseite einfügen
+\cleardoublepage

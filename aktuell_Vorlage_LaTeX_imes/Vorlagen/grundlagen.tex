@@ -1,0 +1,31 @@
+\chapter{Grundlagen}
+In dem Grundlagenkapitel werden die Grundlagen erläutert, denn die sind für das Verständnis relativ wichtig ahmena.
+
+\section{Fourierreihen und Fouriertransformation}
+Periodische Signale tauchen in vielen Bereichen der Physik und Technik auf. Ein Signal bezeichnet hierbei eine Funktion, welche eine physikalische Größe in Abhängigkeit von der Zeit, dem Ort, oder einer anderen Variablen darstellt. Betrachtet man periodische Funktionen, so zeichnen sich diese durch ihre Periodendauer $T$ aus. Die gesamten Informationen des Signals stecken in dieser Periode, so dass gilt: $F(t) = F(t+T)$. Jede periodische Funktion kann durch eine Überlagerung von Sinus- und Kosinusfunktionen unterschiedlicher Periodendauern $2 \pi n$ approximiert werden. Dargestellt werden kann dies durch eine Fourierreihe. 
+
+\begin{equation}
+	\label{eq:Fourierreihe}
+	F(t) = \dfrac{a_0}{2} + \sum_{n=0}^N[a_n \cos(n \omega t) + b_n \sin(n \omega t)]
+\end{equation}
+Hierbei bezeichnet $\omega = 2 \pi / T$ die Kreisfrequenz der Grundschwingung. Im Allgemeinen geht $N$ gegen $\infty$. Die Konstanten $a_0,a_1 \dots $ werden als gerade Fourierkoeffizienten bezeichnet, $b_1, b_2 \dots $ hingegen als ungerade Fourierkoeffizienten. Dies leitet sich daraus ab, dass der $\cos(x)$ eine gerade und der $\sin(x)$ eine ungerade Funktion ist. \\
+Des Weiteren lässt sich eine Fourierreihe durch Sinusfunktionen mit unterschiedlichen Amplituden und Phasen beschreiben. Die Fourierreihe lautet dann:
+\begin{equation}
+	\label{eq:Fourierreihe_umgerechnet}
+	F(t) = \rho_0 + \sum_{n=1}^{N} \rho_n \sin(n \omega t + \Phi_n)
+\end{equation}
+Die Grundfrequenz des Signals besitzt eine Frequenz $f_1 = 1/ T = \omega / 2 \pi$. Die weiteren Sinus- und Kosinusfunktionen der Fourierreihe besitzen Frequenzen $f_n = nf_1$, also ganzzahlige Vielfache der Grundfrequenz. Die Umrechnung von Gleichung \ref{eq:Fourierreihe} nach Gleichung \ref{eq:Fourierreihe_umgerechnet} erfolgt mithilfe der Definitionen:
+\begin{equation}
+	\label{eq:rho_0}
+	\rho_0 = \frac{a_0}{2}
+\end{equation}
+\begin{equation}
+	\label{eq:rho_n}
+	\rho_n = \sqrt{a_n^2 + b_n^2}
+\end{equation}
+\begin{equation}
+	\label{eq:phi_n}
+	\Phi_n = \arctan(\frac{a_n}{b_n})
+\end{equation}
+Mit $\rho_0$ \ref{eq:rho_0} wird hierbei der Gleichanteil des Signals bezeichnet, $\rho_n$ \ref{eq:rho_n} steht für die Amplitude der \textit{n-ten} Frequenz und $\Phi_n$ \ref{eq:phi_n} für die Phasenverschiebung der \textit{n-ten} Frequenz. Ein Signal kann also durch sein Kosinus- und Sinusspektrum sowie durch sein Amplituden- und Phasenspektrum charakterisiert werden. 
+% hier muss jetzt noch das Bild 52.1 eingefügt werden, welches das zeitliche Signal beschreibt, sowie Bild 52.2 mit dem Amplituden-und Phasenspektrum. Dann noch Erläuterungen dazu machen.

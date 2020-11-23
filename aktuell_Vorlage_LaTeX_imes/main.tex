@@ -1,0 +1,142 @@
+% LaTeX Vorlage für studentische Arbeiten am imes, MZH, ...
+% Vorlagenversion vom 15.08.2017
+%
+%
+%
+%
+%
+% META & VOREINSTELLUNGEN -------------------------------------------------------
+\newcommand{\Autor}%                % Name des Autors / der Autorin
+{Adrian Kleimeier}
+\newcommand{\Matrikelnummer}%       % Matrikelnummer
+{3111950}
+\newcommand{\Datum}%       % Abgabedatum
+{15. Januar 2021}
+
+% ------------------------------------------------------------------------------------------
+% erlaubt das Anfangen des Draft-Modus und damit Veränderungen
+% einzustellen
+\newif\ifdraft
+% Draft-Modus: Arbeitsversion, Bilder werden nur als Rahmen dargestellt
+% Vorteil: schnelleres Kompilieren
+%\drafttrue % <- dafür hier die Kommentierung wegnehmen
+
+%-------------------------------------------------------------------------------------------
+% folgende Befehle sorgen dafür, das für jede Schrift die richtigen Pakete installiert werden
+\newcounter{schrift}
+% Schrift auswählen:
+% 1 - mathptmx
+% 2 - minionpro
+% 3 - mathpazo
+% 4 - times + computer modern
+% 5 - computer modern
+\setcounter{schrift}{4} % Hier die entsprechende Zahl setzen !
+
+% ------------------------------------------------------------------------------------------
+\input{Vorlagen/praeambel}                  % Präambel zur Dokumentenformatierung einfügen
+                                            % braucht nicht zu verändert werden, stehen aber nützliche
+                                            % Hinweise drin
+
+\bibliography{Vorlagen/masterbib.bib}
+
+%---------------------------------------------------------------
+% Trennmuster fuer Ausnahmefälle
+%---------------------------------------------------------------
+\hyphenation{} % z.B. \hypenation{Trenn-text}
+\hyphenation{Kraft-ein-wirk-ung}
+\hyphenation{ein-ge-spannt}
+\hyphenation{Coch-lea-im-plan-ta-te}
+\hyphenation{Deh-nungs-mess-streifen}
+
+%---------------------------------------------------------------
+% Dokumentenanfang:
+%---------------------------------------------------------------
+% Einstellungen für PDF-Latex:
+% Hier Titel etc. eintragen, dann wird es in den Dokumenteneigenschaften vom PDF richtig angezeigt
+\ifpdf
+    \hypersetup{
+    %   colorlinks,  % Links mit farbigem Text
+        pdftitle    = {zeit- und Ortsabhängige Prädiktion von Umweltzuständen für die Vorhersage von Personen- Auftrittswahrscheinlichkeiten},
+        pdfsubject  = {Studienarbeit},
+        pdfauthor   = {\Autor},
+        pdfkeywords = {Kraftsensorik, Insertionskräfte, Cochleaimplantate}
+        }
+\else
+\fi
+
+\usepackage{Vorlagen/befehle}                        % eigene Befehle wie:
+                                            % \zB\,
+                                            % \abbildung{Position h,b,t,p}{Dateiname ohne Endung}{Caption}
+                                            % \bild{Dateiname}, referenziert gemäß ...Bild x.xx...
+                                            % einfach mal nachschauen was so drin ist und eigene Befehle für
+                                            % wiederholende Sachen definieren
+
+\includeonly{grundlagen}                   % wenn nur ein Kapitel kompilliert werden soll
+                                            % geht schneller wenn man nur das Layout des Kapitels sehen will
+
+%\entwurf                                   % Entwurfsdatum auf jede Seite setzen,
+                                            % nicht vergessen beim Druck rauszunehmen
+%\setlength\overfullrule{5pt}                % Overfull boxes werden angezeigt
+%\setlength\underfullrule{5pt} 
+
+% Seitenspiegel neu berechnen
+\typearea[current]{last}
+\begin{document}                            % Dokumentenanfang
+\begin{spacing}{1.15}                       % Zeilenabstand auf 1,15 fach stellen, ist nicht so eng aber
+                                            % auch nicht so eine Seitenschinderei wie 1,5-fach
+    \frontmatter                            % mit kleinen römischen Seitenzahlen beginnen für class scrbook
+    %\pagenumbering{roman}                  % das gleiche fücrartcl
+    \setcounter{page}{0}
+    \pdfbookmark[0]{Titel}{tit}             % damit der Titel auch im Acrobat angezeigt wird
+		\include{Vorlagen/cover} %Titelseite
+		\include{Vorlagen/selbst} % Selbstständigkeitserklärung
+    \clearpage
+		%\includepdf{Vorlagen/aufgabenstellung.pdf} % Aufgabenstellung als pdf einbinden
+		\include{Vorlagen/aufgabenstellung} % Aufgabenstellung aus LaTeX nutzen
+		\include{Vorlagen/kurzfassung}
+    \setcounter{page}{1}
+    \pdfbookmark[0]{\contentsname}{toc}
+    \tableofcontents                        % Inhaltsverzeichnis
+    %\listoffigures
+    %\listoftables
+		\input{Vorlagen/nomenklatur}                    % Beschreibungen der verwendeten Abkürzungen und Variablen
+    \mainmatter                             % der eigentliche Tex
+    \setcounter{page}{1} % bei i anfangen
+    \input{Vorlagen/einleitung}										% die einzelnen Kapitel einbinden
+    	\input{Vorlagen/grundlagen}
+    	\input{Vorlagen/stand_der_technik}
+		\input{Vorlagen/tipps}
+		\input{Vorlagen/vorlage_betreuer}
+		\input{Vorlagen/robotersysteme}
+    \nocite{*}                             % alle Literaturquellen einbinden, sonst werden nur die zitierten
+                                            % Quellen im Literaturverzeichnis angezeigt (ist Geschmackssache).
+                                            % eher nicht verwenden, außer man hat einen guten Grund
+    \appendix                               % Anhang starten, jedes weitere Kapitel bekommt jetzt einen Buchstaben
+    \chapter*{Anhang}                       % Anhang als Chapter
+    \addcontentsline{toc}{chapter}{Anhang}
+    %\thispagestyle{empty}                   % keine Kopfzeile, Seitenzahl u.a., leere Seite mit Überschrift Anhang
+    %\setcounter{chapter}{1}                 % Chapter Counter auf 1 = im Anhang A
+    %\setcounter{equation}{0}                % Equation Counter nullen
+    %\newpage                                
+    %\ihead{\normalfont Anhang}              % Kopfzeile auf Anhang setzen
+
+
+
+    %% --- Ab hier der Anhang einfügen
+
+    %\include{anhang_wheatstone}            % Anhang
+    %\include{anhang_fehlerfortpflanzung}
+		%\include{anhang_mgcEinstellungen}
+		%\include{anhang_trafos}
+		%\include{anhang_befestigen}
+		%\include{anhang_datenblaetter}
+    %% --- Anhang zu Ende
+		
+    \ihead{\normalfont\headmark}            % kolumnentitel innen
+ 
+    %% --- Literaturverzeichnis
+    {\sloppy \printbibliography}
+
+\end{spacing}
+\end{document}                              % fertig!
+
