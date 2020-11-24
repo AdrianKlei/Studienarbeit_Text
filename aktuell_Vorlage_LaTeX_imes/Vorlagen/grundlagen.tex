@@ -2,6 +2,7 @@
 In dem Grundlagenkapitel werden die Grundlagen erläutert, denn die sind für das Verständnis relativ wichtig ahmena.
 
 \section{Fourierreihen und Fouriertransformation}
+\label{sec:Fourierreihen und Fouriertransformation}
 Periodische Signale tauchen in vielen Bereichen der Physik und Technik auf. Ein Signal bezeichnet hierbei eine Funktion, welche eine physikalische Größe in Abhängigkeit von der Zeit, dem Ort, oder einer anderen Variablen darstellt. Betrachtet man periodische Funktionen, so zeichnen sich diese durch ihre Periodendauer $T$ aus. Die gesamten Informationen des Signals stecken in dieser Periode, so dass gilt: $F(t) = F(t+T)$. Jede periodische Funktion kann durch eine Überlagerung von Sinus- und Kosinusfunktionen unterschiedlicher Periodendauern $2 \pi n$ approximiert werden. Dargestellt werden kann dies durch eine Fourierreihe. 
 
 \begin{equation}
@@ -29,3 +30,45 @@ Die Grundfrequenz des Signals besitzt eine Frequenz $f_1 = 1/ T = \omega / 2 \pi
 \end{equation}
 Mit $\rho_0$ \ref{eq:rho_0} wird hierbei der Gleichanteil des Signals bezeichnet, $\rho_n$ \ref{eq:rho_n} steht für die Amplitude der \textit{n-ten} Frequenz und $\Phi_n$ \ref{eq:phi_n} für die Phasenverschiebung der \textit{n-ten} Frequenz. Ein Signal kann also durch sein Kosinus- und Sinusspektrum sowie durch sein Amplituden- und Phasenspektrum charakterisiert werden. 
 % hier muss jetzt noch das Bild 52.1 eingefügt werden, welches das zeitliche Signal beschreibt, sowie Bild 52.2 mit dem Amplituden-und Phasenspektrum. Dann noch Erläuterungen dazu machen.
+Grafisch veranschaulicht wird die Fourierreihe durch \bild{Fourier}. Im linken Bild eingezeichnet ist ein periodisches Signal mit der Periodendauer T, für welches also $F(t) = F(t+T)$ gilt. Im rechten Bild finden sich die das Gesamtsignal definierenden Frequenzen, mit ihren zugehörigen Amplituden $\rho$ und Phasenversatz $\Phi$.
+\begin{figure}[!ht]
+	\centering
+	\subfigure[]{\includegraphics[height=50mm]{signal}}
+	\hspace{5mm}
+	\subfigure[]{\includegraphics[height=50mm]{amplituden_phasenspektrum}}
+	\caption{Periodisches Signal mit zugehörigem Amplituden- und Phasenspektrum (Quelle: Eichler))}
+	\label{fig.Fourier}
+\end{figure}
+\\
+Die Fouriertransformation überführt die Gleichung aus dem Zeitbereich $F(t)$ nun in den Frequenzbereich $F(\omega)$. Für analoge Signale ist die Fouriertransformation nun wie folgt definiert:
+\begin{equation}
+	\label{eq:Fouriertransformation}
+	F(\omega) = \int\limits_{-\infty}^{\infty} x(t) e^\ind{-j\omega} \ind{d}t.
+\end{equation}
+\begin{equation}
+	\label{eq:Inverse_Fouriertransformation}
+	F(t) = \frac{1}{2\pi}\int\limits_{-\infty}^{\infty} F(\omega)e^\ind{j\omega} \ind{d}\omega
+\end{equation}
+Gleichung \ref{eq:Fouriertransformation} überführt eine von der Zeit abhängige Funktion aus dem Zeitbereich über Integration von $-\infty$ bis $\infty$ über alle Zeitpunkte $t$ in den Frequenzbereich. Die inverse Fouriertransformation wird durch Gleichung \ref{eq:Inverse_Fouriertransformation} beschrieben. Die Rücktransformation erfolgt durch Integration von $-\infty$ bis $\infty$ des von der Frequenz $\omega$ abhängigen Signals über alle Frequenzen $\omega$.
+
+\section{Diskrete Fouriertransformation}
+Die in Abschnitt \ref{sec:Fourierreihen und Fouriertransformation} dargestellten Gleichungen gelten für analoge Funktionen. In der Praxis ist es aber so, dass keine vollständige Kenntnis über ein Signal vorliegt, sondern dies nur durch Messungen zu diskreten Zeitpunkten abgetastet werden kann. Hieraus resultiert die Diskrete Fourier-Transformation (DFT). Die resultierenden Werte $F(n)$ der diskreten Fouriertransformation eines zu den Zeitpunkten $k$ abgetasteten Signals $f(t)$ können mittels Gleichung \ref{eq:DFT} berechnet werden. Die inverse diskrete Fouriertransformation erfolgt dann durch Gleichung \ref{eq:IDFT}.
+\begin{equation}
+	\label{eq:DFT}
+	F(n) = \sum_{k=0}^{N-1}x[k]e^\ind{j\frac{2\pi}{N}kn}
+\end{equation}
+\begin{equation}
+	\label{eq:IDFT}
+	f[k] = \frac{1}{N}\sum_{k=0}^{N-1}F(n)e^\ind{j\frac{2\pi}{N}kn}
+\end{equation} \\
+Im Zusammenhang mit der Diskreten Fouriertransformation ist abschließend das Abtasttheorem von Nyquist und Shannon zu nennen. Das Theorem besagt, dass ein beliebig geformtes, kontinuierliches Signal immer dann durch ein diskretes Signal darstellbar und auch exakt wiederherstellbar ist, wenn die Abtastfrequenz des Signals mindestens doppelt so hoch ist, wie die höchste im kontinuierlichen Signal enthaltene Frequenz. Beträgt die höchste Frequenz in unserem Signal also beispielsweise \SI{10}{\Hz}, so müssen wir unser Signal mit mindestens \SI{20}{\Hz} abtasten, um unser Signal vollständig rekonstruieren zu können. \\
+Die Folgen einer zu geringen Abtastfrequenz werden in \bild{Abtasttheorem} ersichtlich. Die Abtastung des Signals zu den mit schwarz markierten Zeitpunkten reicht nicht aus, um das in grau dargestellte Originalsignal zu rekonstruieren. Stattdessen ergibt sich das in rot dargestellte Signal.
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[]{abtasttheorem}
+		\caption{Originalsignal (grau) und durch Abtastung rekonstruiertes Signal (rot) Quelle(https://www.geothermie.de/bibliothek/lexikon-der-geothermie/a/abtasttheorem.html)}
+		\label{fig.Abtasttheorem}
+	\end{center}
+\end{figure}
+
+
