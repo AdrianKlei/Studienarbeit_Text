@@ -9,18 +9,21 @@
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Fourierreihen und Fouriertransformation}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Diskrete Fouriertransformation}{4}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Stand der Technik}{6}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Tipps zur Erstellung der Arbeit}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Darstellung von Gleichungen}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Darstellung von Grafiken}{8}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Software}{8}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Matlab, Corel}{8}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}LaTeX}{9}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Literaturverweise}{9}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Eigene Befehle in LaTeX}{9}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Betreuer- und/oder projektspezifische Anmerkungen}{10}{chapter.5}%
-\contentsline {chapter}{\numberline {6}(Beispielkapitel) Robotersysteme}{11}{chapter.6}%
-\contentsline {section}{\numberline {6.1}PR2}{11}{section.6.1}%
-\contentsline {section}{\numberline {6.2}ROS}{12}{section.6.2}%
-\contentsline {chapter}{Anhang}{13}{chapter*.18}%
+\contentsline {section}{\numberline {2.3}Wahrscheinlichkeitsverteilungen}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Binomialverteilung}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Poissonverteilung}{6}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Stand der Technik}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Tipps zur Erstellung der Arbeit}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Darstellung von Gleichungen}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Darstellung von Grafiken}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Software}{10}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Matlab, Corel}{10}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}LaTeX}{11}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Literaturverweise}{11}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Eigene Befehle in LaTeX}{11}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Betreuer- und/oder projektspezifische Anmerkungen}{12}{chapter.5}%
+\contentsline {chapter}{\numberline {6}(Beispielkapitel) Robotersysteme}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}PR2}{13}{section.6.1}%
+\contentsline {section}{\numberline {6.2}ROS}{14}{section.6.2}%
+\contentsline {chapter}{Anhang}{15}{chapter*.18}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  24 NOV 2020 12:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  24 NOV 2020 15:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -1781,110 +1781,115 @@ chapter 1.
 ]
 chapter 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 4.
+(Font)              scaled to size 13.24796pt on input line 5.
 [2
 
 
 ]
-<./Abbildungen//signal.jpg, id=92, 175.857pt x 135.50626pt>
+<./Abbildungen//signal.jpg, id=102, 175.857pt x 135.50626pt>
 File: ./Abbildungen//signal.jpg Graphic file (type jpg)
 <use ./Abbildungen//signal.jpg>
-Package pdftex.def Info: ./Abbildungen//signal.jpg  used on input line 36.
+Package pdftex.def Info: ./Abbildungen//signal.jpg  used on input line 38.
 (pdftex.def)             Requested size: 184.63382pt x 142.26378pt.
-<./Abbildungen//amplituden_phasenspektrum.jpg, id=93, 180.07275pt x 191.5155pt>
-
+<./Abbildungen//amplituden_phasenspektrum.jpg, id=103, 180.07275pt x 191.5155pt
+>
 File: ./Abbildungen//amplituden_phasenspektrum.jpg Graphic file (type jpg)
 <use ./Abbildungen//amplituden_phasenspektrum.jpg>
 Package pdftex.def Info: ./Abbildungen//amplituden_phasenspektrum.jpg  used on 
-input line 38.
+input line 40.
 (pdftex.def)             Requested size: 133.7738pt x 142.26378pt.
  [3 <./Abbildungen//signal.jpg> <./Abbildungen//amplituden_phasenspektrum.jpg>]
-<./Abbildungen//abtasttheorem.jpg, id=114, 803.0pt x 259.97125pt>
+<./Abbildungen//abtasttheorem.jpg, id=122, 803.0pt x 259.97125pt>
 File: ./Abbildungen//abtasttheorem.jpg Graphic file (type jpg)
 <use ./Abbildungen//abtasttheorem.jpg>
-Package pdftex.def Info: ./Abbildungen//abtasttheorem.jpg  used on input line 6
-8.
-(pdftex.def)             Requested size: 802.99805pt x 259.97061pt.
+Package pdftex.def Info: ./Abbildungen//abtasttheorem.jpg  used on input line 7
+2.
+(pdftex.def)             Requested size: 439.42136pt x 142.26378pt.
 
-Overfull \hbox (365.53687pt too wide) in paragraph at lines 68--69
+Overfull \hbox (1.96017pt too wide) in paragraph at lines 72--73
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 [][][]|\T1/ptm/m/n/12 (+20) Ori-gi-nal-si-gnal (grau) und durch Ab-tas-tung re-
 kon-stru-ier-tes Si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \T1/ptm/m/n/12 (+20) gnal (rot) Quelle(https://www.geothermie.de/bibliothek/lex
 ikon-der-
  []
 
-) (Vorlagen/stand_der_technik.tex [4] [5 <./Abbildungen//abtasttheorem.jpg>]
+[4] [5 <./Abbildungen//abtasttheorem.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+11.
+("C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [6])
+(Vorlagen/stand_der_technik.tex [7]
 chapter 3.
-) (Vorlagen/tipps.tex [6
+) (Vorlagen/tipps.tex [8
 
 
 ]
 chapter 4.
-[7
+[9
 
 
 ]
-<./Abbildungen//template_einfach.pdf, id=141, 312.16624pt x 183.68625pt>
+<./Abbildungen//template_einfach.pdf, id=165, 312.16624pt x 183.68625pt>
 File: ./Abbildungen//template_einfach.pdf Graphic file (type pdf)
 <use ./Abbildungen//template_einfach.pdf>
 Package pdftex.def Info: ./Abbildungen//template_einfach.pdf  used on input lin
 e 41.
 (pdftex.def)             Requested size: 312.16548pt x 183.68578pt.
- [8 <./Abbildungen//template_einfach.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-6.
+ [10 <./Abbildungen//template_einfach.pdf>]
 
-("C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-LaTeX Warning: Citation 'Ber59' on page 9 undefined on input line 69.
+LaTeX Warning: Citation 'Ber59' on page 11 undefined on input line 69.
 
 
-LaTeX Warning: Citation 'Hussong08' on page 9 undefined on input line 69.
+LaTeX Warning: Citation 'Hussong08' on page 11 undefined on input line 69.
 
 
-LaTeX Warning: Citation 'Wintermantel09' on page 9 undefined on input line 69.
+LaTeX Warning: Citation 'Wintermantel09' on page 11 undefined on input line 69.
 
-) (Vorlagen/vorlage_betreuer.tex [9]
+
+) (Vorlagen/vorlage_betreuer.tex [11]
 chapter 5.
-) (Vorlagen/robotersysteme.tex [10
+) (Vorlagen/robotersysteme.tex [12
 
 
 ]
 chapter 6.
 
-LaTeX Warning: Citation 'WillowGarage2010' on page 11 undefined on input line 8
+LaTeX Warning: Citation 'WillowGarage2010' on page 13 undefined on input line 8
 .
 
-<./Abbildungen//PR2-1.jpg, id=157, 662.475pt x 819.06pt>
+<./Abbildungen//PR2-1.jpg, id=182, 662.475pt x 819.06pt>
 File: ./Abbildungen//PR2-1.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-1.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-1.jpg  used on input line 13.
 (pdftex.def)             Requested size: 115.06552pt x 142.26378pt.
-<./Abbildungen//PR2-2.jpg, id=158, 501.875pt x 379.4175pt>
+<./Abbildungen//PR2-2.jpg, id=183, 501.875pt x 379.4175pt>
 File: ./Abbildungen//PR2-2.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-2.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-2.jpg  used on input line 15.
 (pdftex.def)             Requested size: 188.17969pt x 142.26378pt.
-<./Abbildungen//PR2-3.jpg, id=159, 419.5675pt x 639.38875pt>
+<./Abbildungen//PR2-3.jpg, id=184, 419.5675pt x 639.38875pt>
 File: ./Abbildungen//PR2-3.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-3.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-3.jpg  used on input line 17.
 (pdftex.def)             Requested size: 93.35507pt x 142.26378pt.
 
-LaTeX Warning: Citation 'TUM2011' on page 11 undefined on input line 22.
+LaTeX Warning: Citation 'TUM2011' on page 13 undefined on input line 22.
 
-[11
+[13
 
 
  <./Abbildungen//PR2-1.jpg> <./Abbildungen//PR2-2.jpg> <./Abbildungen//PR2-3.jp
@@ -1898,11 +1903,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [12]
+) [14]
 
 LaTeX Warning: Empty bibliography on input line 138.
 
-[13
+[15
 
 
 ] (main.aux (Vorlagen/cover.aux) (Vorlagen/selbst.aux)
@@ -1923,13 +1928,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50138 strings out of 479799
- 1145238 string characters out of 2879595
- 2184052 words of memory out of 3000000
- 66011 multiletter control sequences out of 15000+200000
- 590980 words of font info for 186 fonts, out of 3000000 for 9000
+ 50171 strings out of 479799
+ 1145696 string characters out of 2879595
+ 2184468 words of memory out of 3000000
+ 66022 multiletter control sequences out of 15000+200000
+ 591500 words of font info for 194 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
- 110i,20n,113p,10697b,2317s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 110i,21n,113p,10697b,2317s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
@@ -1944,9 +1949,9 @@ Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb
 i8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 460566 bytes).
+Output written on main.pdf (17 pages, 474971 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 32984 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 33008 words of extra memory for PDF output out of 35830 (max. 10000000)
 

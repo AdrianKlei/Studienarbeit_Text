@@ -1,7 +1,9 @@
 \chapter{Grundlagen}
-In dem Grundlagenkapitel werden die Grundlagen erläutert, denn die sind für das Verständnis relativ wichtig ahmena.
+In diesem Kapitel wird auf die mathematischen Grundlagen zum Verständnis der Arbeit eingegangen. Während in Abschnitt \ref{sec:Fourierreihen und Fouriertransformation} auf die Darstellung periodischer Funktionen mittels Fourierreihen eingegangen wird, behandelt Abschnitt \ref{sec.Diskrete Fouriertransformation} die mathematische Formulierung der diskreten Fouriertransformation für abgetastete Signale und geht des Weiteren auf das Nyquist-Shannon-Abtasttheorem ein.\\
+In Abschnitt \ref{sec.Wahrscheinlichkeitsverteilungen} folgt dann eine Erläuterung zu Wahrscheinlichkeitsverteilungen. Den Anfang bildet hier die Binomialverteilung (Abschnitt \ref{sec.Binomialverteilung}), bevor zuletzt die Poisson-Verteilung (Abschnitt \ref{sec.Poissonverteilung}) besprochen wird.
 
 \section{Fourierreihen und Fouriertransformation}
+% Quelle: Eichler 2006
 \label{sec:Fourierreihen und Fouriertransformation}
 Periodische Signale tauchen in vielen Bereichen der Physik und Technik auf. Ein Signal bezeichnet hierbei eine Funktion, welche eine physikalische Größe in Abhängigkeit von der Zeit, dem Ort, oder einer anderen Variablen darstellt. Betrachtet man periodische Funktionen, so zeichnen sich diese durch ihre Periodendauer $T$ aus. Die gesamten Informationen des Signals stecken in dieser Periode, so dass gilt: $F(t) = F(t+T)$. Jede periodische Funktion kann durch eine Überlagerung von Sinus- und Kosinusfunktionen unterschiedlicher Periodendauern $2 \pi n$ approximiert werden. Dargestellt werden kann dies durch eine Fourierreihe. 
 
@@ -52,6 +54,8 @@ Die Fouriertransformation überführt die Gleichung aus dem Zeitbereich $F(t)$ n
 Gleichung \ref{eq:Fouriertransformation} überführt eine von der Zeit abhängige Funktion aus dem Zeitbereich über Integration von $-\infty$ bis $\infty$ über alle Zeitpunkte $t$ in den Frequenzbereich. Die inverse Fouriertransformation wird durch Gleichung \ref{eq:Inverse_Fouriertransformation} beschrieben. Die Rücktransformation erfolgt durch Integration von $-\infty$ bis $\infty$ des von der Frequenz $\omega$ abhängigen Signals über alle Frequenzen $\omega$.
 
 \section{Diskrete Fouriertransformation}
+\label{sec.Diskrete Fouriertransformation}
+% Quelle: Wendemuth
 Die in Abschnitt \ref{sec:Fourierreihen und Fouriertransformation} dargestellten Gleichungen gelten für analoge Funktionen. In der Praxis ist es aber so, dass keine vollständige Kenntnis über ein Signal vorliegt, sondern dies nur durch Messungen zu diskreten Zeitpunkten abgetastet werden kann. Hieraus resultiert die Diskrete Fourier-Transformation (DFT). Die resultierenden Werte $F(n)$ der diskreten Fouriertransformation eines zu den Zeitpunkten $k$ abgetasteten Signals $f(t)$ können mittels Gleichung \ref{eq:DFT} berechnet werden. Die inverse diskrete Fouriertransformation erfolgt dann durch Gleichung \ref{eq:IDFT}.
 \begin{equation}
 	\label{eq:DFT}
@@ -65,10 +69,48 @@ Im Zusammenhang mit der Diskreten Fouriertransformation ist abschließend das Ab
 Die Folgen einer zu geringen Abtastfrequenz werden in \bild{Abtasttheorem} ersichtlich. Die Abtastung des Signals zu den mit schwarz markierten Zeitpunkten reicht nicht aus, um das in grau dargestellte Originalsignal zu rekonstruieren. Stattdessen ergibt sich das in rot dargestellte Signal.
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[]{abtasttheorem}
+		\includegraphics[height=50mm]{abtasttheorem}
 		\caption{Originalsignal (grau) und durch Abtastung rekonstruiertes Signal (rot) Quelle(https://www.geothermie.de/bibliothek/lexikon-der-geothermie/a/abtasttheorem.html)}
 		\label{fig.Abtasttheorem}
 	\end{center}
 \end{figure}
+\section{Wahrscheinlichkeitsverteilungen}
+\label{sec.Wahrscheinlichkeitsverteilungen}
+\subsection{Binomialverteilung}
+\label{sec.Binomialverteilung}
+% Quelle: Teschl 2010
+Als Bernoulli-Experiment wird ein Zufallsexperiment bezeichnet, bei dem es lediglich zwei Ausgänge geben kann. Ein Ereignis A tritt entweder ein oder nicht. Führt man ein Bernoulli-Experiment n-mal hintereinander unter den gleichen Bedingungen durch, so erhält man eine Bernoulli-Kette der Länge $n$. Das Eintreten des Ereignisses A wird gemeinhin als Erfolg bezeichnet, die Wahrscheinlichkeit $P(A)=p$ bezeichnet man als Erfolgswahrscheinlichkeit. Als Ereignis A kann hier beispielhaft das Werfen einer Münze mit dem Ausgang $Zahl$ genannt werden. Eine Binomialverteilung entsteht nun, wenn wir die Anzahl der Erfolge bei einer Bernoulli-Kette ermitteln wollen. Mathematisch formuliert lässt sich die Binomialverteilung ausdrücken als:
+\begin{equation}
+	\label{eq:Binomialverteilung}
+	P(X=x) = \binom{n}{x}p^\ind{x} q^\ind{n-x}
+\end{equation}\\
+$X$ bezeichnet hierbei die Anzahl der Versuchsdurchführungen, bei denen ein Erfolg eintritt. $X$ kann die Werte $x = 0,1,2,\dots,n$ annehmen. $p$ steht für die Eintrittswahrscheinlichkeit eines Erfolges, $q$ für die Wahrscheinlichkeit eines Misserfolges. Die Zufallsvariable $X$ ist binomialverteilt und ihre Wahrscheinlichkeitsverteilung eine Binomialverteilung mit den Parametern $n,p$. Kurz: $X~Bi(n;p)$. Die grafische Darstellung einer Binomialverteilung für die Wahrscheinlichkeit der Anzahl an Würfen eines Würfels mit dem Ereignis 1 bei sieben Würfen ist in Abbildung xy abgebildet.
+% Hier Bild aus Buch 2014 Mathe für Informatiker einfügen
+% evtl noch Eigenschaften der Binomialverteilung einfügen? Oder unnötig?
+\subsection{Poissonverteilung}
+\label{sec.Poissonverteilung}
+Eine Zufallsvariable $X$, welche unendlich viele Werte $x=0,1,2\dots$ mit den Wahrscheinlichkeiten
+\begin{align}
+	P(X=x) &= \frac{\lambda^\ind{x}}{x!} e^\ind{-\lambda} & (\lambda >0)
+	\label{eq:Poisson Verteilung}
+\end{align}
+annehmen kann, wird als poissonverteilt mit dem Parameter $\lambda$ bezeichnet. Die zugehörige Verteilung heißt Poisson-Verteilung. Der Erwartungswert sowie die Varianz der Poisson-Verteilung werden ausgedrückt als:
+\begin{align}
+	\mu &= E(X) = \lambda \\
+	\sigma^2 &= Var(X) = \lambda
+	\label{eq:Poisson EW und Var}
+\end{align}
+Anhand der obigen Formeln erkennt man, dass der Parameter der Poisson-Verteilung grade gleich ihres Erwartungswertes ist, selbiges gilt für die Varianz.
+Häufig ist es von Interesse, die Anzahl $X_t$ eines Ereignisses innerhalb eines Zeitraumes von 0 bis $t$ zu prognostizieren. Die Menge von Zufallsvariablen $X_t, t\geq 0,$ wird als Poisson-Prozess mit der Intensität $\lambda$ bezeichnet, falls $X_t$ einer Poisson-Verteilung folgt, es also gilt: \\
+\begin{equation}
+	P(X_t=x) = \frac{(\lambda t)^x}{x!} e^\ind{-\lambda t}
+	\label{eq:Poisson-Prozess}
+\end{equation}
+Ein Poisson-Prozess muss dabei drei Voraussetzungen erfüllen:
+\begin{itemize}
+	\item Die Wahrscheinlichkeit für ein Ereignis ist proportional zur Beobachtungsdauer $\Delta t$, aber unabhängig von der Lage der Beobachtungsdauer.
+	\item Die Wahrscheinlichkeiten für ein Ereignis an unterschiedlichen Orten sind voneinander unabhängig
+	\item Für infinitesimal kleine $\Delta t$ ist die Wahrscheinlichkeit, dass das Ereignis mehr als einmal auftritt, im Vergleich zur Wahrscheinlichkeit, dass es genau einmal vorkommt, vernachlässigbar klein.
+\end{itemize}
 
 
