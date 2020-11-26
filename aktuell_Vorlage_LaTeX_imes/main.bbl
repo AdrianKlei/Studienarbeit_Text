@@ -1,0 +1,217 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{Ber59}{article}{}
+      \name{author}{1}{}{%
+        {{hash=56caa76f0a01a947560bcd0ff2e4af6a}{%
+           family={Bertodo},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{56caa76f0a01a947560bcd0ff2e4af6a}
+      \strng{fullhash}{56caa76f0a01a947560bcd0ff2e4af6a}
+      \strng{bibnamehash}{56caa76f0a01a947560bcd0ff2e4af6a}
+      \strng{authorbibnamehash}{56caa76f0a01a947560bcd0ff2e4af6a}
+      \strng{authornamehash}{56caa76f0a01a947560bcd0ff2e4af6a}
+      \strng{authorfullhash}{56caa76f0a01a947560bcd0ff2e4af6a}
+      \field{labelalpha}{Ber59}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Institution of Mechanical Engineers}
+      \field{number}{23}
+      \field{title}{Development of High-temperature Strain Gauges}
+      \field{volume}{173}
+      \field{year}{1959}
+      \field{pages}{605\bibrangedash 616}
+      \range{pages}{12}
+    \endentry
+    \entry{Hussong08}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=add5ee36399081fe49b6788a11aeb0b3}{%
+           family={Hussong},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=659af8a846fb1a2d0744ea1d051b25b8}{%
+           family={Rau},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5d2e727f3bd5dccd97e2c50b47beda92}{%
+           family={Eilers},
+           familyi={E\bibinitperiod},
+           given={Hubertus},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0546b33d5e3c9b67a7c82f2e2218b3f3}{%
+           family={Baron},
+           familyi={B\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=557dd88c33241157fca7807a2340b512}{%
+           family={Heimann},
+           familyi={H\bibinitperiod},
+           given={Bodo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2726430b1e69fea23e47dfdda31defdb}{%
+           family={Leinung},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e37a5f0827bec809c77f5179ead5830}{%
+           family={Lenarz},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=eb42d4254440e3b4ba88376d7198df24}{%
+           family={Majdani},
+           familyi={M\bibinitperiod},
+           given={Omid},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{65f08610aa757aeb10c7fd0563ac32bb}
+      \strng{fullhash}{059575645d79404cf801bf6e03daa104}
+      \strng{bibnamehash}{059575645d79404cf801bf6e03daa104}
+      \strng{authorbibnamehash}{059575645d79404cf801bf6e03daa104}
+      \strng{authornamehash}{65f08610aa757aeb10c7fd0563ac32bb}
+      \strng{authorfullhash}{059575645d79404cf801bf6e03daa104}
+      \field{labelalpha}{Hus+08}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 30th Annual Int. Conf. of the IEEE Engineering in Medicine and Biology Society EMBS 2008}
+      \field{title}{Conception and design of an automated insertion tool for cochlear implants}
+      \field{year}{2008}
+      \field{pages}{5593\bibrangedash 5596}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/IEMBS.2008.4650482
+      \endverb
+    \endentry
+    \entry{TUM2011}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a5e097a0683a778ad890116553ddd76b}{%
+           family={München},
+           familyi={M\bibinitperiod},
+           given={Technische\bibnamedelima Universität},
+           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Englisch}%
+      }
+      \strng{namehash}{a5e097a0683a778ad890116553ddd76b}
+      \strng{fullhash}{a5e097a0683a778ad890116553ddd76b}
+      \strng{bibnamehash}{a5e097a0683a778ad890116553ddd76b}
+      \strng{authorbibnamehash}{a5e097a0683a778ad890116553ddd76b}
+      \strng{authornamehash}{a5e097a0683a778ad890116553ddd76b}
+      \strng{authorfullhash}{a5e097a0683a778ad890116553ddd76b}
+      \field{labelalpha}{Mün11}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Abrufdatum: 18.12.2011}
+      \field{title}{TUM Rosie and PR2 James make pancakes together}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb http://www.willowgarage.com/blog/2010/10/21/tum-rosie-and-pr2-james-make-pancakes-together
+      \endverb
+      \verb{url}
+      \verb http://www.willowgarage.com/blog/2010/10/21/tum-rosie-and-pr2-james-make-pancakes-together
+      \endverb
+    \endentry
+    \entry{Wintermantel09}{book}{}
+      \name{author}{2}{}{%
+        {{hash=8276b2e35a503334989d4a67090e80a8}{%
+           family={Wintermantel},
+           familyi={W\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod}}}%
+        {{hash=572ed7d3a9d88ac301d1d0d05b9b3841}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Suk-Woo},
+           giveni={S\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München, Schaffhausen}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{120f8f2759baeb29736a9c4f088a2983}
+      \strng{fullhash}{120f8f2759baeb29736a9c4f088a2983}
+      \strng{bibnamehash}{120f8f2759baeb29736a9c4f088a2983}
+      \strng{authorbibnamehash}{120f8f2759baeb29736a9c4f088a2983}
+      \strng{authornamehash}{120f8f2759baeb29736a9c4f088a2983}
+      \strng{authorfullhash}{120f8f2759baeb29736a9c4f088a2983}
+      \field{labelalpha}{WH09}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Funktionsersatz des Innenohres}
+      \field{edition}{5. Auflage}
+      \field{month}{3}
+      \field{title}{Medizintechnik -- Life Science Engineering}
+      \field{year}{2009}
+      \field{pages}{1401\bibrangedash 1417}
+      \range{pages}{17}
+    \endentry
+    \entry{WillowGarage2010}{online}{}
+      \name{author}{1}{}{%
+        {{hash=04c7a5965275322f2c7579ad0b327b44}{%
+           family={{Willow Garage}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Englisch}%
+      }
+      \strng{namehash}{04c7a5965275322f2c7579ad0b327b44}
+      \strng{fullhash}{04c7a5965275322f2c7579ad0b327b44}
+      \strng{bibnamehash}{04c7a5965275322f2c7579ad0b327b44}
+      \strng{authorbibnamehash}{04c7a5965275322f2c7579ad0b327b44}
+      \strng{authornamehash}{04c7a5965275322f2c7579ad0b327b44}
+      \strng{authorfullhash}{04c7a5965275322f2c7579ad0b327b44}
+      \field{labelalpha}{Wil10}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{05}
+      \field{note}{Abrufdatum: 16.08.2011}
+      \field{title}{The Results Are In: PR2 Beta Program Recipients!}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://www.willowgarage.com/blog/2010/05/04/pr2-beta-program-recipients
+      \endverb
+      \verb{url}
+      \verb http://www.willowgarage.com/blog/2010/05/04/pr2-beta-program-recipients
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

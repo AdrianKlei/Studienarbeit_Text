@@ -2350,12 +2350,19 @@
     <bcf:datasource type="file" datatype="bibtex">Vorlagen/masterbib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Ber59</bcf:citekey>
-    <bcf:citekey order="2">Hussong08</bcf:citekey>
-    <bcf:citekey order="3">Wintermantel09</bcf:citekey>
-    <bcf:citekey order="4">WillowGarage2010</bcf:citekey>
-    <bcf:citekey order="5">TUM2011</bcf:citekey>
-    <bcf:citekey order="0" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="1">Eichler.2006</bcf:citekey>
+    <bcf:citekey order="2">Hahnel.30Sept.5Oct.2002</bcf:citekey>
+    <bcf:citekey order="3">Montesano.2008</bcf:citekey>
+    <bcf:citekey order="4">Milford.2010</bcf:citekey>
+    <bcf:citekey order="5">Krajnik.2014</bcf:citekey>
+    <bcf:citekey order="6">Krajnik.2014</bcf:citekey>
+    <bcf:citekey order="7">Krajnik.2014</bcf:citekey>
+    <bcf:citekey order="8">Krajnik.2014</bcf:citekey>
+    <bcf:citekey order="9">Ber59</bcf:citekey>
+    <bcf:citekey order="10">Hussong08</bcf:citekey>
+    <bcf:citekey order="11">Wintermantel09</bcf:citekey>
+    <bcf:citekey order="12">WillowGarage2010</bcf:citekey>
+    <bcf:citekey order="13">TUM2011</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

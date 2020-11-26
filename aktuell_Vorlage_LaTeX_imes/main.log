@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  24 NOV 2020 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  26 NOV 2020 11:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -1730,34 +1730,103 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 99
-.
+\openout2 = `Vorlagen/cover.aux'.
 
-("C:\Program Files\MiKTeX\tex/latex/psnfss\t1phv.fd"
+ (Vorlagen/cover.tex
+<Abbildungen/CoverLogos.pdf, id=6, 455.2441pt x 51.21497pt>
+File: Abbildungen/CoverLogos.pdf Graphic file (type pdf)
+<use Abbildungen/CoverLogos.pdf>
+Package pdftex.def Info: Abbildungen/CoverLogos.pdf  used on input line 6.
+(pdftex.def)             Requested size: 437.46118pt x 49.21658pt.
+<./Abbildungen//Titelbild_Bender.jpg, id=7, 255.95625pt x 216.81pt>
+File: ./Abbildungen//Titelbild_Bender.jpg Graphic file (type jpg)
+<use ./Abbildungen//Titelbild_Bender.jpg>
+Package pdftex.def Info: ./Abbildungen//Titelbild_Bender.jpg  used on input lin
+e 15.
+(pdftex.def)             Requested size: 227.62204pt x 192.8081pt.
+
+[0
+
+
+
+
+
+{C:/Users/Adrian/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Abbildungen/
+CoverLogos.pdf> <./Abbildungen//Titelbild_Bender.jpg>])
+\openout2 = `Vorlagen/selbst.aux'.
+
+ (Vorlagen/selbst.tex
+[1
+
+
+
+
+
+])
+\openout2 = `Vorlagen/aufgabenstellung.aux'.
+
+ (Vorlagen/aufgabenstellung.tex
+File: Abbildungen/CoverLogos.pdf Graphic file (type pdf)
+<use Abbildungen/CoverLogos.pdf>
+Package pdftex.def Info: Abbildungen/CoverLogos.pdf  used on input line 5.
+(pdftex.def)             Requested size: 437.46118pt x 49.21658pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+9.
+("C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [2
+
+
+
+
+
+
+] [3])
+\openout2 = `Vorlagen/kurzfassung.aux'.
+
+
+(Vorlagen/kurzfassung.tex
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 1.
+
+ ("C:\Program Files\MiKTeX\tex/latex/psnfss\t1phv.fd"
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 99.
+(Font)              scaled to size 11.03998pt on input line 1.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 99.
+(Font)              scaled to size 11.03998pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.89755pt on input line 99.
+(Font)              scaled to size 15.89755pt on input line 1.
+[4
+
+
+
+
+
+
+
+])
 Package tocbasic Info: character protrusion at toc deactivated on input line 99
 .
  (main.toc)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-
-(Vorlagen/nomenklatur.tex [1{C:/Users/Adrian/AppData/Local/MiKTeX/pdftex/config
-/pdftex.map}
-
-
-
+ (Vorlagen/nomenklatur.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \chapter
+            *{Nomenklatur} [1
 
 
 
@@ -1769,7 +1838,13 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 12.
-) [2
+)pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.103     \mainmatter
+                                                  % der eigentliche Tex
+[2
 
 
 ] (Vorlagen/einleitung.tex
@@ -1786,12 +1861,12 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 
 ]
-<./Abbildungen//signal.jpg, id=102, 175.857pt x 135.50626pt>
+<./Abbildungen//signal.jpg, id=137, 175.857pt x 135.50626pt>
 File: ./Abbildungen//signal.jpg Graphic file (type jpg)
 <use ./Abbildungen//signal.jpg>
 Package pdftex.def Info: ./Abbildungen//signal.jpg  used on input line 38.
 (pdftex.def)             Requested size: 184.63382pt x 142.26378pt.
-<./Abbildungen//amplituden_phasenspektrum.jpg, id=103, 180.07275pt x 191.5155pt
+<./Abbildungen//amplituden_phasenspektrum.jpg, id=138, 180.07275pt x 191.5155pt
 >
 File: ./Abbildungen//amplituden_phasenspektrum.jpg Graphic file (type jpg)
 <use ./Abbildungen//amplituden_phasenspektrum.jpg>
@@ -1799,7 +1874,7 @@ Package pdftex.def Info: ./Abbildungen//amplituden_phasenspektrum.jpg  used on
 input line 40.
 (pdftex.def)             Requested size: 133.7738pt x 142.26378pt.
  [3 <./Abbildungen//signal.jpg> <./Abbildungen//amplituden_phasenspektrum.jpg>]
-<./Abbildungen//abtasttheorem.jpg, id=122, 803.0pt x 259.97125pt>
+<./Abbildungen//abtasttheorem.jpg, id=157, 803.0pt x 259.97125pt>
 File: ./Abbildungen//abtasttheorem.jpg Graphic file (type jpg)
 <use ./Abbildungen//abtasttheorem.jpg>
 Package pdftex.def Info: ./Abbildungen//abtasttheorem.jpg  used on input line 7
@@ -1827,74 +1902,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-11.
-("C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [6])
-(Vorlagen/stand_der_technik.tex [7]
+[6]) (Vorlagen/stand_der_technik.tex [7]
 chapter 3.
-) (Vorlagen/tipps.tex [8
+
+LaTeX Warning: Citation 'Eichler.2006' on page 8 undefined on input line 4.
 
 
-]
+LaTeX Warning: Citation 'Hahnel.30Sept.5Oct.2002' on page 8 undefined on input 
+line 4.
+
+
+LaTeX Warning: Citation 'Montesano.2008' on page 8 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'Milford.2010' on page 8 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 7.
+
+! Extra }, or forgotten $.
+l.7 ...en Funktionen der Zeit sind, also $p_j (t)}
+                                                  $ gilt, und diesen zeitlic...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 7.
+
+) (Vorlagen/tipps.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+[8
+
+
+] [9]
 chapter 4.
-[9
+[10
 
 
 ]
-<./Abbildungen//template_einfach.pdf, id=165, 312.16624pt x 183.68625pt>
+<./Abbildungen//template_einfach.pdf, id=205, 312.16624pt x 183.68625pt>
 File: ./Abbildungen//template_einfach.pdf Graphic file (type pdf)
 <use ./Abbildungen//template_einfach.pdf>
 Package pdftex.def Info: ./Abbildungen//template_einfach.pdf  used on input lin
 e 41.
 (pdftex.def)             Requested size: 312.16548pt x 183.68578pt.
- [10 <./Abbildungen//template_einfach.pdf>]
-
-LaTeX Warning: Citation 'Ber59' on page 11 undefined on input line 69.
-
-
-LaTeX Warning: Citation 'Hussong08' on page 11 undefined on input line 69.
-
-
-LaTeX Warning: Citation 'Wintermantel09' on page 11 undefined on input line 69.
-
-
-) (Vorlagen/vorlage_betreuer.tex [11]
+ [11 <./Abbildungen//template_einfach.pdf>]) (Vorlagen/vorlage_betreuer.tex [12
+]
 chapter 5.
-) (Vorlagen/robotersysteme.tex [12
+) (Vorlagen/robotersysteme.tex [13
 
 
 ]
 chapter 6.
-
-LaTeX Warning: Citation 'WillowGarage2010' on page 13 undefined on input line 8
-.
-
-<./Abbildungen//PR2-1.jpg, id=182, 662.475pt x 819.06pt>
+<./Abbildungen//PR2-1.jpg, id=229, 662.475pt x 819.06pt>
 File: ./Abbildungen//PR2-1.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-1.jpg>
-Package pdftex.def Info: ./Abbildungen//PR2-1.jpg  used on input line 13.
+Package pdftex.def Info: ./Abbildungen//PR2-1.jpg  used on input line 14.
 (pdftex.def)             Requested size: 115.06552pt x 142.26378pt.
-<./Abbildungen//PR2-2.jpg, id=183, 501.875pt x 379.4175pt>
+<./Abbildungen//PR2-2.jpg, id=230, 501.875pt x 379.4175pt>
 File: ./Abbildungen//PR2-2.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-2.jpg>
-Package pdftex.def Info: ./Abbildungen//PR2-2.jpg  used on input line 15.
+Package pdftex.def Info: ./Abbildungen//PR2-2.jpg  used on input line 16.
 (pdftex.def)             Requested size: 188.17969pt x 142.26378pt.
-<./Abbildungen//PR2-3.jpg, id=184, 419.5675pt x 639.38875pt>
+<./Abbildungen//PR2-3.jpg, id=231, 419.5675pt x 639.38875pt>
 File: ./Abbildungen//PR2-3.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-3.jpg>
-Package pdftex.def Info: ./Abbildungen//PR2-3.jpg  used on input line 17.
+Package pdftex.def Info: ./Abbildungen//PR2-3.jpg  used on input line 18.
 (pdftex.def)             Requested size: 93.35507pt x 142.26378pt.
-
-LaTeX Warning: Citation 'TUM2011' on page 13 undefined on input line 22.
-
-[13
+[14
 
 
  <./Abbildungen//PR2-1.jpg> <./Abbildungen//PR2-2.jpg> <./Abbildungen//PR2-3.jp
 g>]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 47
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 48
 .
  ("C:\Program Files\MiKTeX\tex/latex/psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1903,11 +1995,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [14]
+) [15] [16
 
-LaTeX Warning: Empty bibliography on input line 138.
 
-[15
+]
+chapter without number
+[17
 
 
 ] (main.aux (Vorlagen/cover.aux) (Vorlagen/selbst.aux)
@@ -1919,6 +2012,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -1928,11 +2024,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50171 strings out of 479799
- 1145696 string characters out of 2879595
- 2184468 words of memory out of 3000000
- 66022 multiletter control sequences out of 15000+200000
- 591500 words of font info for 194 fonts, out of 3000000 for 9000
+ 50330 strings out of 479799
+ 1148780 string characters out of 2879595
+ 2184562 words of memory out of 3000000
+ 66103 multiletter control sequences out of 15000+200000
+ 612724 words of font info for 244 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
  110i,21n,113p,10697b,2317s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
@@ -1949,9 +2045,9 @@ Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb
 i8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 474971 bytes).
+Output written on main.pdf (24 pages, 546371 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 33008 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 44818 words of extra memory for PDF output out of 51595 (max. 10000000)
 
