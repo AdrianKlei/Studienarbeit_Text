@@ -13,3 +13,36 @@ Der Zustand einer Zelle wird nun über die Gleichung xy approximiert.
 \end{equation}
 Ist die Wahrscheinlichkeit $p(t)$ einer Zellbelegung größer als 0.5, so wird die Zelle als belegt geschätzt, sofern der Zeitpunkt $t$ nicht zum Set der Ausreißer 0 gehört.
 %Ausreißer-Set muss noch eingebunden werden.
+Der in Gleichung benutzte Schwellwert von 0.5 kann willkürlich gesetzt werden. So können Vorhersagen über zukünftige Zustände der Zelle mit einem gewissen Konfidenzniveau von $c$ durch die Gleichung:
+\begin{equation}
+	s'(t,c) = IFT(P) > c
+	\label{eq:Zustandsvorhersage}
+\end{equation}
+getroffen werden. Grafisch verdeutlicht wird die Methodik durch \bild{FreMEn Beispiel}. 
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[]{example_of_measured_state_and_prediction}
+		\caption{Beispiel eines über die Zeit gemessenen Zellzustandes sowie seines Spektralmodells und Wahrscheinlichkeitsprädiktion Quelle (Krajnik.2014)}
+		\label{fig.FreMEn Beispiel}
+	\end{center}
+\end{figure}
+In der linken Grafik rot dargestellt sind die über einen zeitlichen Verlauf aufgenommenen, binären Zustände einer Beispielzelle. Der grüne Graph beschreibt das zugehörige FreMEn-Modell der Ordnung drei. In blau aufgetragen sind die Vorhersagen des Modells ermittelt anhand eines Schwellwertes von 0.5. Der lila Graph stellt die Zeitpunkte dar, zu denen die Modellvorhersage von den tatsächlichen Zellzuständen abweicht \cite{Krajnik.2014}. Die rechte obere Grafik repräsentiert das Frequenzspektrum der Zelle, die für das Modell ausgewählten Frequenzen sind durch blaue Kreise markiert. Das zuvor erwähnte Tripel bestehend aus Amplitude, Phasenversatz und Frequenz der jeweiligen periodischen Prozesse ist in der rechten unteren Grafik dargestellt. Um die Auswirkungen des Modellgrades, also der Anzahl der in das Modell einfliessenden periodischen Prozesse, zu erforschen, wurde die Methodik auf einen Datensatz angewendet, bei welchem ein SCITOS-G5 mobiler Roboter ausgestattet mit RGB-D und Lasersensoren, Personen in einem Bürogebäude über eine Dauer von einer Woche mit einer Rate von \SI{30}{\hertz} detektiert hat. \\
+Die Genauigkeit des Modells $q(t_a,t_b)$ wird anhand von Gleichung xy berechnet und beschreibt das Verhältnis von korrekt geschätzten Zellzuständen zu der Gesamtdauer des betrachteten Intervalls.
+\begin{equation}
+	q(t_a,t_b) = \frac{1}{t_b - t_a} \int_{t_a}^{t_b} |s'(t) - s(t)| \ind{d}t
+\end{equation}
+Unterschieden wurde nun in \cite{Krajnik.2014} zwischen dem Rekonstruktionsfehler $q_r$ sowie dem Prädiktionsfehler $q_p$. Der Rekonstruktionsfehler beschreibt, wie genau das Modell Zeitintervalle beschreibt, welche zur Ermittlung der Modellparameter verwendet wurden. Der Prädiktionsfehler hingegen beschreibt die Genauigkeit des Modells in Bezug auf Zeiträume, welche nicht zur Modellermittlung verwendet wurden. Die ermittelte Abhängigkeit des Rekonstruktions-sowie Prädiktionsfehlers von der Modellordnung ist in \bild{Modellgenauigkeit} aufgezeigt. \\
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[]{Prediction_Reconstruction_Error}
+		\caption{Modellgenauigkeit vs. Modellordnung Quelle (Krajnik.2014)}
+		\label{fig.Modellgenauigkeit}
+	\end{center}
+	
+\end{figure}
+
+Die Rekonstruktionsgenauigkeit liegt bei einer Modellordnung von 15, d.h. es wurden 15 periodische Prozesse zum Approximieren des Zustandssignales verwendet, bei 95 \%. Die Rekonstruktionsgenauigkeit $q_r$ steigt dabei monoton mit der Modellordnung, die Prädiktionsgenauigkeit $q_p$ hingegen nicht. % Manchmal nenne ich q_p hier Prädiktionsgenauigkeit und manchmal Fehler, das muss ich noch einheitlich machen. 
+\\
+Die lokalen Maxima von $q_\ind{p1}$ und $q_\ind{p2}$ lassen den Schluss zu, dass für die Vorhersage eine Modellordnung von zwei oder drei optimal ist (siehe \bild{Modellgenauigkeit}).
+
