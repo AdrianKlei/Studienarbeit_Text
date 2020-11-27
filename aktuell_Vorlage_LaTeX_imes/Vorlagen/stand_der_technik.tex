@@ -8,8 +8,8 @@ Diese Zustände können jedoch auch durch ihre Wahrscheinlichkeit $p_j$ ausgedr�
 
 Der Zustand einer Zelle wird nun über die Gleichung xy approximiert. 
 \begin{equation}
-	s(t) = (IFT(P) \gtr 0.5) \oplus  (t \notin 0)
-	\label{eq: Zellzustand}
+	s(t) = (IFT(P) > 0.5) \oplus  (t \notin 0)
+	\label{eq:Zellzustand}
 \end{equation}
 Ist die Wahrscheinlichkeit $p(t)$ einer Zellbelegung größer als 0.5, so wird die Zelle als belegt geschätzt, sofern der Zeitpunkt $t$ nicht zum Set der Ausreißer 0 gehört.
 %Ausreißer-Set muss noch eingebunden werden.
@@ -31,6 +31,7 @@ In der linken Grafik rot dargestellt sind die über einen zeitlichen Verlauf auf
 Die Genauigkeit des Modells $q(t_a,t_b)$ wird anhand von Gleichung xy berechnet und beschreibt das Verhältnis von korrekt geschätzten Zellzuständen zu der Gesamtdauer des betrachteten Intervalls.
 \begin{equation}
 	q(t_a,t_b) = \frac{1}{t_b - t_a} \int_{t_a}^{t_b} |s'(t) - s(t)| \ind{d}t
+	\label{eq:Modellgenauigkeit}
 \end{equation}
 Unterschieden wurde nun in \cite{Krajnik.2014} zwischen dem Rekonstruktionsfehler $q_r$ sowie dem Prädiktionsfehler $q_p$. Der Rekonstruktionsfehler beschreibt, wie genau das Modell Zeitintervalle beschreibt, welche zur Ermittlung der Modellparameter verwendet wurden. Der Prädiktionsfehler hingegen beschreibt die Genauigkeit des Modells in Bezug auf Zeiträume, welche nicht zur Modellermittlung verwendet wurden. Die ermittelte Abhängigkeit des Rekonstruktions-sowie Prädiktionsfehlers von der Modellordnung ist in \bild{Modellgenauigkeit} aufgezeigt. \\
 \begin{figure}[!ht]
@@ -44,5 +45,18 @@ Unterschieden wurde nun in \cite{Krajnik.2014} zwischen dem Rekonstruktionsfehle
 
 Die Rekonstruktionsgenauigkeit liegt bei einer Modellordnung von 15, d.h. es wurden 15 periodische Prozesse zum Approximieren des Zustandssignales verwendet, bei 95 \%. Die Rekonstruktionsgenauigkeit $q_r$ steigt dabei monoton mit der Modellordnung, die Prädiktionsgenauigkeit $q_p$ hingegen nicht. % Manchmal nenne ich q_p hier Prädiktionsgenauigkeit und manchmal Fehler, das muss ich noch einheitlich machen. 
 \\
-Die lokalen Maxima von $q_\ind{p1}$ und $q_\ind{p2}$ lassen den Schluss zu, dass für die Vorhersage eine Modellordnung von zwei oder drei optimal ist (siehe \bild{Modellgenauigkeit}).
+Die lokalen Maxima von $q_\ind{p1}$ und $q_\ind{p2}$ lassen den Schluss zu, dass für die Vorhersage eine Modellordnung von zwei oder drei optimal ist (siehe \bild{Modellgenauigkeit}). \\
+% \cite{Krajnik.2015b} 
+Einen Vergleich zwischen der in \cite{Krajnik.2014} beschriebenen "Frequency Map Enhancement" (FreMEn) Methode und der Anwendung von periodischen Gauß-Mixmodellen zur Darstellung der Dynamik von Umweltzuständen zieht \cite{Krajnik.2015b}. FreMEn basiert hier, wie auch schon in \cite{Krajnik.2014} darauf, die zeitliche Funktion $s(t)$ eines Umweltzustandes durch seine Wahrscheinlichkeitsfunktion $p(t)$ zu schätzen. Auch hier wird wieder mittels einer Fouriertransformation das Frequenzspektrum $S(\omega)$ der zeitlichen Funktion $s(t)$ bestimmt, und die l prominentesten Frequenzen mit ihren Amplituden $a_j$, ihrem Phasenversatz $\varphi_j$ sowie ihrer Frequenz $\omega_j$ abgespeichert. Die Ermittlung der Wahrscheinlichkeit eines Umweltzustandes zum Zeitpunkt t ergibt sich nun durch die Superposition der l Frequenzen mittels Gleichung \ref{eq:Superposition}.
+\begin{equation}
+	p(t) = a_o + \sum_{j=1}^{n} a_j \cos(\omega_j t + \varphi_j)
+	\label{eq:Superposition}
+\end{equation}
+Die erste spektrale Komponente $a_0$ stellt hierbei den Durchschnitt aller binären Werte von $s(t)$ dar. FreMEn besitze aber laut \cite{Krajnik.2015b} zwei wesentliche Nachteile. So erlaube es zum Einen, lediglich einen periodischen Prozess pro Frequenz zu modellieren. Des Weiteren bilde es wiederkehrende, aber kurze Prozesse, schlecht ab. Als Beispiel wird hier die morgendliche Dusche angeführt, welche eine tägliche, aber kurze Routine sei. Da in \cite{Krajnik.2014} herausgearbeitet wurde, dass die optimale Modellordnung für eine möglichst genaue Prognostizierfähigkeit bei lediglich zwei bis drei liegt, könnten solche kurzen Routinen schlicht nicht abgebildet werden. \\ Als zweiter Ansatz werden Gaussian Mixture Models genannt. Diese können multidimensionale Funktionen als gewichtete Summe aus mehreren Gauß-Funktionen mittels Gleichung xy approximieren.
+\begin{equation}
+	f(t) = \frac{1}{\sqrt{2 \pi}} \sum_{j=1}^{m} \frac{\omega_j}{\sigma_j} e^\ind{- \frac{(t- \mu_j)^2}{2 \sigma_j ^2}}
+	\label{eq:Gaussian_Mixture_Models}
+\end{equation}
+
+
 
