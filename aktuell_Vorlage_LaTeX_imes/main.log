@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  27 NOV 2020 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  27 NOV 2020 15:23
 entering extended mode
 **./main.tex
 (main.tex
@@ -1947,15 +1947,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
 
 ]
-! Undefined control sequence.
-l.11 	s(t) = (IFT(P) \gtr
-                          0.5) \oplus  (t \notin 0)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 <./Abbildungen//example_of_measured_state_and_prediction.jpg, id=194, 284.86424
 pt x 179.4705pt>
 File: ./Abbildungen//example_of_measured_state_and_prediction.jpg Graphic file 
@@ -1964,6 +1955,7 @@ File: ./Abbildungen//example_of_measured_state_and_prediction.jpg Graphic file
 Package pdftex.def Info: ./Abbildungen//example_of_measured_state_and_predictio
 n.jpg  used on input line 25.
 (pdftex.def)             Requested size: 284.86354pt x 179.47005pt.
+
 
 LaTeX Warning: Citation 'Krajnik.2014' on page 9 undefined on input line 30.
 
@@ -2001,42 +1993,60 @@ LaTeX Warning: Citation 'Krajnik.2015b' on page 12 undefined on input line 55.
 
 LaTeX Warning: Citation 'Krajnik.2014' on page 12 undefined on input line 55.
 
-) (Vorlagen/tipps.tex [12]
+
+LaTeX Warning: Citation 'Krajnik.2015b' on page 12 undefined on input line 60.
+
+<./Abbildungen//PerGaM_vs_FreMEn.jpg, id=219, 282.45525pt x 242.70676pt>
+File: ./Abbildungen//PerGaM_vs_FreMEn.jpg Graphic file (type jpg)
+<use ./Abbildungen//PerGaM_vs_FreMEn.jpg>
+Package pdftex.def Info: ./Abbildungen//PerGaM_vs_FreMEn.jpg  used on input lin
+e 73.
+(pdftex.def)             Requested size: 282.45454pt x 242.70615pt.
+
+LaTeX Warning: Citation 'Krajnik.2015' on page 12 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'Krajnik.2014' on page 12 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'Krajnik.2015' on page 12 undefined on input line 80.
+
+[12] [13 <./Abbildungen//PerGaM_vs_FreMEn.jpg>]) (Vorlagen/tipps.tex [14]
 chapter 4.
-[13
+[15
 
 
 ]
-<./Abbildungen//template_einfach.pdf, id=232, 312.16624pt x 183.68625pt>
+<./Abbildungen//template_einfach.pdf, id=253, 312.16624pt x 183.68625pt>
 File: ./Abbildungen//template_einfach.pdf Graphic file (type pdf)
 <use ./Abbildungen//template_einfach.pdf>
 Package pdftex.def Info: ./Abbildungen//template_einfach.pdf  used on input lin
 e 41.
 (pdftex.def)             Requested size: 312.16548pt x 183.68578pt.
- [14 <./Abbildungen//template_einfach.pdf>]) (Vorlagen/vorlage_betreuer.tex [15
+ [16 <./Abbildungen//template_einfach.pdf>]) (Vorlagen/vorlage_betreuer.tex [17
 ]
 chapter 5.
-) (Vorlagen/robotersysteme.tex [16
+) (Vorlagen/robotersysteme.tex [18
 
 
 ]
 chapter 6.
-<./Abbildungen//PR2-1.jpg, id=255, 662.475pt x 819.06pt>
+<./Abbildungen//PR2-1.jpg, id=277, 662.475pt x 819.06pt>
 File: ./Abbildungen//PR2-1.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-1.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-1.jpg  used on input line 14.
 (pdftex.def)             Requested size: 115.06552pt x 142.26378pt.
-<./Abbildungen//PR2-2.jpg, id=256, 501.875pt x 379.4175pt>
+<./Abbildungen//PR2-2.jpg, id=278, 501.875pt x 379.4175pt>
 File: ./Abbildungen//PR2-2.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-2.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-2.jpg  used on input line 16.
 (pdftex.def)             Requested size: 188.17969pt x 142.26378pt.
-<./Abbildungen//PR2-3.jpg, id=257, 419.5675pt x 639.38875pt>
+<./Abbildungen//PR2-3.jpg, id=279, 419.5675pt x 639.38875pt>
 File: ./Abbildungen//PR2-3.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-3.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-3.jpg  used on input line 18.
 (pdftex.def)             Requested size: 93.35507pt x 142.26378pt.
-[17
+[19
 
 
  <./Abbildungen//PR2-1.jpg> <./Abbildungen//PR2-2.jpg> <./Abbildungen//PR2-3.jp
@@ -2050,12 +2060,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [18] [19
+) [20] [21
 
 
 ]
 chapter without number
-[20
+[22
 
 
 ] (main.aux (Vorlagen/cover.aux) (Vorlagen/selbst.aux)
@@ -2076,11 +2086,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50371 strings out of 479799
- 1149960 string characters out of 2879595
- 2185288 words of memory out of 3000000
- 66128 multiletter control sequences out of 15000+200000
- 612984 words of font info for 248 fonts, out of 3000000 for 9000
+ 50389 strings out of 479799
+ 1150388 string characters out of 2879595
+ 2185551 words of memory out of 3000000
+ 66140 multiletter control sequences out of 15000+200000
+ 612854 words of font info for 246 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
  110i,21n,113p,10697b,2317s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
@@ -2098,9 +2108,9 @@ fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (27 pages, 665603 bytes).
+Output written on main.pdf (29 pages, 717562 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 500000)
- 44828 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 484 PDF objects out of 1000 (max. 8388607)
+ 120 named destinations out of 1000 (max. 500000)
+ 44833 words of extra memory for PDF output out of 51595 (max. 10000000)
 
