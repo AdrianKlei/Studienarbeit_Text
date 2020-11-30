@@ -137,8 +137,13 @@ für die Anzahl $N$ an Aktivitäten innerhalb eines Zeitintervalls in einer Zell
 \begin{equation}
 	P_\ind{ij \tau} (N(t) = k) = \frac{(\lambda_\ind{ij \tau}(t-t_\tau))^k}{k!} e^\ind{-\lambda_\ind{ij\tau} (t- t_\tau)}
 \end{equation}
-wobei $\lambda_\ind{ij \tau}$ für die Rate an Aktivitäten der Zelle $(i,j)$ innerhalb des Zeitintervalls $tau$ steht. Die der Zelle zugehörigen Parameter $\alpha_\ind{ij\tau}$ sowie $\beta_\ind{ij\tau}$ inkrementell foor jeden Zeitschritt $\sigma$  mittels der Vorschrift:
+wobei $\lambda_\ind{ij \tau}$ für die Rate an Aktivitäten der Zelle $(i,j)$ innerhalb des Zeitintervalls $tau$ steht. Die der Zelle zugehörigen Parameter $\alpha_\ind{ij\tau}$ sowie $\beta_\ind{ij\tau}$ inkrementell für jeden Zeitschritt $\sigma$  mittels der Vorschrift:
 \begin{equation}
-	\alpha_\sigma = \alpha_\ind{\sigma - 1} + x_\sigma \boldsymbol{l}_D (\boldsymbol{x_R}, t_\sigma), 
+	\alpha_\sigma = \alpha_\ind{\sigma - 1} + x_\sigma \boldsymbol{l}_D (\boldsymbol{x_R}, t_\sigma),  \beta_\sigma = \beta_\ind{\sigma - 1} + \boldsymbol{l}_D (\boldsymbol{x}_R, t_\sigma )
 \end{equation}
+Als Anfangswerte werden $\alpha_0 = \beta_0 = 1 $ gewählt. Die Indikator-Funktion $\boldsymbol{l}_D (\boldsymbol{x}_r, t_\sigma)$ resultiert hierbei aus dem Detektionsbereich eines Roboters bei der Pose $\boldsymbol{x}_r$. Die a-posteriori erwarteten Werte der Aktivitätenrate $\lambda$ und ihrer Varianz berechnen sich nun für jedes Intervall zu:
+\begin{equation}
+	\hat{\lambda_\ind{ij\tau}} = E[\lambda_\ind{ij\tau}] = \frac{\alpha_\ind{ij\tau}}{\beta_\ind{ij}tau},	Var[\lambda_\ind{ij\tau}] = \frac{\alpha_\ind{ij\tau}}{\beta_\ind{ij\tau}^2}
+\end{equation}
+
 

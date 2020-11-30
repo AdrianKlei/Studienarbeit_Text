@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  30 NOV 2020 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  30 NOV 2020 19:03
 entering extended mode
 **./main.tex
 (main.tex
@@ -1590,11 +1590,18 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
+ (main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Hahnel.30Sept.5Oct.2002
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 84.
 Package biblatex Info: Reference segment=0 on input line 84.
-
-("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count505
 \scratchdimen=\dimen331
@@ -1856,7 +1863,7 @@ chapter 1.
 ]
 chapter 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 5.
+(Font)              scaled to size 13.24796pt on input line 6.
 [2
 
 
@@ -1864,68 +1871,46 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 <./Abbildungen//signal.jpg, id=137, 175.857pt x 135.50626pt>
 File: ./Abbildungen//signal.jpg Graphic file (type jpg)
 <use ./Abbildungen//signal.jpg>
-Package pdftex.def Info: ./Abbildungen//signal.jpg  used on input line 38.
+Package pdftex.def Info: ./Abbildungen//signal.jpg  used on input line 39.
 (pdftex.def)             Requested size: 184.63382pt x 142.26378pt.
 <./Abbildungen//amplituden_phasenspektrum.jpg, id=138, 180.07275pt x 191.5155pt
 >
 File: ./Abbildungen//amplituden_phasenspektrum.jpg Graphic file (type jpg)
 <use ./Abbildungen//amplituden_phasenspektrum.jpg>
 Package pdftex.def Info: ./Abbildungen//amplituden_phasenspektrum.jpg  used on 
-input line 40.
+input line 41.
 (pdftex.def)             Requested size: 133.7738pt x 142.26378pt.
  [3 <./Abbildungen//signal.jpg> <./Abbildungen//amplituden_phasenspektrum.jpg>]
 <./Abbildungen//abtasttheorem.jpg, id=157, 803.0pt x 259.97125pt>
 File: ./Abbildungen//abtasttheorem.jpg Graphic file (type jpg)
 <use ./Abbildungen//abtasttheorem.jpg>
 Package pdftex.def Info: ./Abbildungen//abtasttheorem.jpg  used on input line 7
-2.
+3.
 (pdftex.def)             Requested size: 439.42136pt x 142.26378pt.
 
-Overfull \hbox (1.96017pt too wide) in paragraph at lines 72--73
+Overfull \hbox (1.96017pt too wide) in paragraph at lines 73--74
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 [][][]|\T1/ptm/m/n/12 (+20) Ori-gi-nal-si-gnal (grau) und durch Ab-tas-tung re-
 kon-stru-ier-tes Si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \T1/ptm/m/n/12 (+20) gnal (rot) Quelle(https://www.geothermie.de/bibliothek/lex
 ikon-der-
  []
 
 [4] [5 <./Abbildungen//abtasttheorem.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 102--105
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
 
 [6]) (Vorlagen/stand_der_technik.tex [7]
 chapter 3.
-
-LaTeX Warning: Citation 'Eichler.2006' on page 8 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Hahnel.30Sept.5Oct.2002' on page 8 undefined on input 
-line 6.
-
-
-LaTeX Warning: Citation 'Montesano.2008' on page 8 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Milford.2010' on page 8 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 9.
-
 ! Extra }, or forgotten $.
 l.9 ...en Funktionen der Zeit sind, also $p_j (t)}
                                                   $ gilt, und diesen zeitlic...
@@ -1936,9 +1921,6 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 9.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
  []
@@ -1947,7 +1929,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
 
 ]
-<./Abbildungen//example_of_measured_state_and_prediction.jpg, id=194, 284.86424
+<./Abbildungen//example_of_measured_state_and_prediction.jpg, id=205, 284.86424
 pt x 179.4705pt>
 File: ./Abbildungen//example_of_measured_state_and_prediction.jpg Graphic file 
 (type jpg)
@@ -1955,15 +1937,8 @@ File: ./Abbildungen//example_of_measured_state_and_prediction.jpg Graphic file
 Package pdftex.def Info: ./Abbildungen//example_of_measured_state_and_predictio
 n.jpg  used on input line 27.
 (pdftex.def)             Requested size: 284.86354pt x 179.47005pt.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 9 undefined on input line 32.
-
-[9]
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 38.
-
-<./Abbildungen//Prediction_Reconstruction_Error.jpg, id=203, 455.50458pt x 280.
+ [9]
+<./Abbildungen//Prediction_Reconstruction_Error.jpg, id=216, 455.50458pt x 280.
 42796pt>
 File: ./Abbildungen//Prediction_Reconstruction_Error.jpg Graphic file (type jpg
 )
@@ -1977,65 +1952,26 @@ Overfull \hbox (18.04228pt too wide) in paragraph at lines 41--42
  []
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 52.
-
-
-LaTeX Warning: Citation 'Krajnik.2015b' on page 10 undefined on input line 52.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 52.
+Overfull \hbox (25.20432pt too wide) in paragraph at lines 48--53
+\T1/ptm/m/n/12 (-20) Einen Ver-gleich zwi-schen der in [[]Kra+14[]] be-schrie-b
+e-nen "Fre-quen-cy Map En-han-ce-ment"(FreMEn)
+ []
 
 [10 <./Abbildungen//example_of_measured_state_and_prediction.jpg>] [11 <./Abbil
-dungen//Prediction_Reconstruction_Error.jpg>]
-
-LaTeX Warning: Citation 'Krajnik.2015b' on page 12 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 12 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'Krajnik.2015b' on page 12 undefined on input line 62.
-
-<./Abbildungen//PerGaM_vs_FreMEn.jpg, id=219, 282.45525pt x 242.70676pt>
+dungen//Prediction_Reconstruction_Error.jpg>] [12]
+<./Abbildungen//PerGaM_vs_FreMEn.jpg, id=248, 282.45525pt x 242.70676pt>
 File: ./Abbildungen//PerGaM_vs_FreMEn.jpg Graphic file (type jpg)
 <use ./Abbildungen//PerGaM_vs_FreMEn.jpg>
 Package pdftex.def Info: ./Abbildungen//PerGaM_vs_FreMEn.jpg  used on input lin
 e 75.
 (pdftex.def)             Requested size: 282.45454pt x 242.70615pt.
-
-LaTeX Warning: Citation 'Krajnik.2015' on page 12 undefined on input line 81.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 12 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'Krajnik.2015' on page 12 undefined on input line 82.
-
-[12] [13 <./Abbildungen//PerGaM_vs_FreMEn.jpg>]
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 14 undefined on input line 93.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 14 undefined on input line 98.
-
-
-LaTeX Warning: Citation 'Jovan.2016' on page 14 undefined on input line 99.
-
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 14 undefined on input line 99.
-
-[14]
-
-LaTeX Warning: Citation 'Jovan.2016' on page 15 undefined on input line 104.
-
-<./Abbildungen//Poisson-Prozess-Modell.jpg, id=249, 278.84175pt x 152.9715pt>
+ [13 <./Abbildungen//PerGaM_vs_FreMEn.jpg>] [14]
+<./Abbildungen//Poisson-Prozess-Modell.jpg, id=277, 278.84175pt x 152.9715pt>
 File: ./Abbildungen//Poisson-Prozess-Modell.jpg Graphic file (type jpg)
 <use ./Abbildungen//Poisson-Prozess-Modell.jpg>
 Package pdftex.def Info: ./Abbildungen//Poisson-Prozess-Modell.jpg  used on inp
 ut line 117.
 (pdftex.def)             Requested size: 278.84105pt x 152.9711pt.
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 15 undefined on input line 123.
 
 ! Undefined control sequence.
 <recently read> \lamdba 
@@ -2048,13 +1984,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Citation 'Krajnik.2014' on page 15 undefined on input line 123.
-
-
-LaTeX Warning: Citation 'Jovan.2016' on page 15 undefined on input line 123.
-
-<./Abbildungen//Vergleich-l_BAM-l_AAM.jpg, id=250, 269.20575pt x 153.57375pt>
+<./Abbildungen//Vergleich-l_BAM-l_AAM.jpg, id=281, 269.20575pt x 153.57375pt>
 File: ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg Graphic file (type jpg)
 <use ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg>
 Package pdftex.def Info: ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg  used on inpu
@@ -2067,7 +1997,7 @@ chapter 4.
 
 
 ]
-<./Abbildungen//template_einfach.pdf, id=277, 312.16624pt x 183.68625pt>
+<./Abbildungen//template_einfach.pdf, id=316, 312.16624pt x 183.68625pt>
 File: ./Abbildungen//template_einfach.pdf Graphic file (type pdf)
 <use ./Abbildungen//template_einfach.pdf>
 Package pdftex.def Info: ./Abbildungen//template_einfach.pdf  used on input lin
@@ -2081,17 +2011,17 @@ chapter 5.
 
 ]
 chapter 6.
-<./Abbildungen//PR2-1.jpg, id=300, 662.475pt x 819.06pt>
+<./Abbildungen//PR2-1.jpg, id=339, 662.475pt x 819.06pt>
 File: ./Abbildungen//PR2-1.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-1.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-1.jpg  used on input line 14.
 (pdftex.def)             Requested size: 115.06552pt x 142.26378pt.
-<./Abbildungen//PR2-2.jpg, id=301, 501.875pt x 379.4175pt>
+<./Abbildungen//PR2-2.jpg, id=340, 501.875pt x 379.4175pt>
 File: ./Abbildungen//PR2-2.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-2.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-2.jpg  used on input line 16.
 (pdftex.def)             Requested size: 188.17969pt x 142.26378pt.
-<./Abbildungen//PR2-3.jpg, id=302, 419.5675pt x 639.38875pt>
+<./Abbildungen//PR2-3.jpg, id=341, 419.5675pt x 639.38875pt>
 File: ./Abbildungen//PR2-3.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-3.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-3.jpg  used on input line 18.
@@ -2118,29 +2048,20 @@ chapter without number
 [25
 
 
-] (main.aux (Vorlagen/cover.aux) (Vorlagen/selbst.aux)
+] [26] (main.aux (Vorlagen/cover.aux) (Vorlagen/selbst.aux)
 (Vorlagen/aufgabenstellung.aux) (Vorlagen/kurzfassung.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50424 strings out of 479799
- 1151232 string characters out of 2879595
- 2185822 words of memory out of 3000000
- 66160 multiletter control sequences out of 15000+200000
- 613114 words of font info for 250 fonts, out of 3000000 for 9000
+ 50476 strings out of 479799
+ 1152392 string characters out of 2879595
+ 2186036 words of memory out of 3000000
+ 66178 multiletter control sequences out of 15000+200000
+ 614612 words of font info for 266 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
  110i,21n,113p,10697b,2317s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
@@ -2148,19 +2069,20 @@ Here is how much of TeX's memory you used:
 /public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
 .pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/
-fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (32 pages, 778301 bytes).
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utm
+b8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on main.pdf (33 pages, 804098 bytes).
 PDF statistics:
- 510 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
+ 571 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
  44843 words of extra memory for PDF output out of 51595 (max. 10000000)
 
