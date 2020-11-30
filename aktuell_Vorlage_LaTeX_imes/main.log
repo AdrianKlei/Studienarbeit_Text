@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  27 NOV 2020 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  30 NOV 2020 17:43
 entering extended mode
 **./main.tex
 (main.tex
@@ -1905,29 +1905,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 [6]) (Vorlagen/stand_der_technik.tex [7]
 chapter 3.
 
-LaTeX Warning: Citation 'Eichler.2006' on page 8 undefined on input line 4.
+LaTeX Warning: Citation 'Eichler.2006' on page 8 undefined on input line 6.
 
 
 LaTeX Warning: Citation 'Hahnel.30Sept.5Oct.2002' on page 8 undefined on input 
-line 4.
+line 6.
 
 
-LaTeX Warning: Citation 'Montesano.2008' on page 8 undefined on input line 4.
+LaTeX Warning: Citation 'Montesano.2008' on page 8 undefined on input line 6.
 
 
-LaTeX Warning: Citation 'Milford.2010' on page 8 undefined on input line 6.
+LaTeX Warning: Citation 'Milford.2010' on page 8 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 6.
+LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 6.
+LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 7.
+LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 9.
 
 ! Extra }, or forgotten $.
-l.7 ...en Funktionen der Zeit sind, also $p_j (t)}
+l.9 ...en Funktionen der Zeit sind, also $p_j (t)}
                                                   $ gilt, und diesen zeitlic...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1936,10 +1936,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 7.
+LaTeX Warning: Citation 'Krajnik.2014' on page 8 undefined on input line 9.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--8
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
  []
 
@@ -1953,15 +1953,15 @@ File: ./Abbildungen//example_of_measured_state_and_prediction.jpg Graphic file
 (type jpg)
 <use ./Abbildungen//example_of_measured_state_and_prediction.jpg>
 Package pdftex.def Info: ./Abbildungen//example_of_measured_state_and_predictio
-n.jpg  used on input line 25.
+n.jpg  used on input line 27.
 (pdftex.def)             Requested size: 284.86354pt x 179.47005pt.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 9 undefined on input line 30.
+LaTeX Warning: Citation 'Krajnik.2014' on page 9 undefined on input line 32.
 
 [9]
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 36.
+LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 38.
 
 <./Abbildungen//Prediction_Reconstruction_Error.jpg, id=203, 455.50458pt x 280.
 42796pt>
@@ -1969,91 +1969,134 @@ File: ./Abbildungen//Prediction_Reconstruction_Error.jpg Graphic file (type jpg
 )
 <use ./Abbildungen//Prediction_Reconstruction_Error.jpg>
 Package pdftex.def Info: ./Abbildungen//Prediction_Reconstruction_Error.jpg  us
-ed on input line 39.
+ed on input line 41.
 (pdftex.def)             Requested size: 455.50346pt x 280.42728pt.
 
-Overfull \hbox (18.04228pt too wide) in paragraph at lines 39--40
+Overfull \hbox (18.04228pt too wide) in paragraph at lines 41--42
  [] 
  []
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 50.
+LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 52.
 
 
-LaTeX Warning: Citation 'Krajnik.2015b' on page 10 undefined on input line 50.
+LaTeX Warning: Citation 'Krajnik.2015b' on page 10 undefined on input line 52.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 50.
+LaTeX Warning: Citation 'Krajnik.2014' on page 10 undefined on input line 52.
 
 [10 <./Abbildungen//example_of_measured_state_and_prediction.jpg>] [11 <./Abbil
 dungen//Prediction_Reconstruction_Error.jpg>]
 
-LaTeX Warning: Citation 'Krajnik.2015b' on page 12 undefined on input line 55.
+LaTeX Warning: Citation 'Krajnik.2015b' on page 12 undefined on input line 57.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 12 undefined on input line 55.
+LaTeX Warning: Citation 'Krajnik.2014' on page 12 undefined on input line 57.
 
 
-LaTeX Warning: Citation 'Krajnik.2015b' on page 12 undefined on input line 60.
+LaTeX Warning: Citation 'Krajnik.2015b' on page 12 undefined on input line 62.
 
 <./Abbildungen//PerGaM_vs_FreMEn.jpg, id=219, 282.45525pt x 242.70676pt>
 File: ./Abbildungen//PerGaM_vs_FreMEn.jpg Graphic file (type jpg)
 <use ./Abbildungen//PerGaM_vs_FreMEn.jpg>
 Package pdftex.def Info: ./Abbildungen//PerGaM_vs_FreMEn.jpg  used on input lin
-e 73.
+e 75.
 (pdftex.def)             Requested size: 282.45454pt x 242.70615pt.
 
-LaTeX Warning: Citation 'Krajnik.2015' on page 12 undefined on input line 79.
+LaTeX Warning: Citation 'Krajnik.2015' on page 12 undefined on input line 81.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 12 undefined on input line 80.
+LaTeX Warning: Citation 'Krajnik.2014' on page 12 undefined on input line 82.
 
 
-LaTeX Warning: Citation 'Krajnik.2015' on page 12 undefined on input line 80.
+LaTeX Warning: Citation 'Krajnik.2015' on page 12 undefined on input line 82.
 
 [12] [13 <./Abbildungen//PerGaM_vs_FreMEn.jpg>]
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 14 undefined on input line 91.
+LaTeX Warning: Citation 'Krajnik.2014' on page 14 undefined on input line 93.
 
 
-LaTeX Warning: Citation 'Krajnik.2014' on page 14 undefined on input line 96.
+LaTeX Warning: Citation 'Krajnik.2014' on page 14 undefined on input line 98.
 
-) (Vorlagen/tipps.tex [14] [15]
+
+LaTeX Warning: Citation 'Jovan.2016' on page 14 undefined on input line 99.
+
+
+LaTeX Warning: Citation 'Krajnik.2014' on page 14 undefined on input line 99.
+
+[14]
+
+LaTeX Warning: Citation 'Jovan.2016' on page 15 undefined on input line 104.
+
+<./Abbildungen//Poisson-Prozess-Modell.jpg, id=249, 278.84175pt x 152.9715pt>
+File: ./Abbildungen//Poisson-Prozess-Modell.jpg Graphic file (type jpg)
+<use ./Abbildungen//Poisson-Prozess-Modell.jpg>
+Package pdftex.def Info: ./Abbildungen//Poisson-Prozess-Modell.jpg  used on inp
+ut line 117.
+(pdftex.def)             Requested size: 278.84105pt x 152.9711pt.
+
+LaTeX Warning: Citation 'Krajnik.2014' on page 15 undefined on input line 123.
+
+! Undefined control sequence.
+<recently read> \lamdba 
+                        
+l.123 ... Amplituden zur Konstruktion von $\lamdba
+                                                   ' = IFT(F'(\omega))$ verw...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Krajnik.2014' on page 15 undefined on input line 123.
+
+
+LaTeX Warning: Citation 'Jovan.2016' on page 15 undefined on input line 123.
+
+<./Abbildungen//Vergleich-l_BAM-l_AAM.jpg, id=250, 269.20575pt x 153.57375pt>
+File: ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg Graphic file (type jpg)
+<use ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg>
+Package pdftex.def Info: ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg  used on inpu
+t line 127.
+(pdftex.def)             Requested size: 269.20508pt x 153.57336pt.
+[15] [16 <./Abbildungen//Poisson-Prozess-Modell.jpg>]) (Vorlagen/tipps.tex
+[17 <./Abbildungen//Vergleich-l_BAM-l_AAM.jpg>]
 chapter 4.
-[16
+[18
 
 
 ]
-<./Abbildungen//template_einfach.pdf, id=259, 312.16624pt x 183.68625pt>
+<./Abbildungen//template_einfach.pdf, id=277, 312.16624pt x 183.68625pt>
 File: ./Abbildungen//template_einfach.pdf Graphic file (type pdf)
 <use ./Abbildungen//template_einfach.pdf>
 Package pdftex.def Info: ./Abbildungen//template_einfach.pdf  used on input lin
 e 41.
 (pdftex.def)             Requested size: 312.16548pt x 183.68578pt.
- [17 <./Abbildungen//template_einfach.pdf>]) (Vorlagen/vorlage_betreuer.tex [18
+ [19 <./Abbildungen//template_einfach.pdf>]) (Vorlagen/vorlage_betreuer.tex [20
 ]
 chapter 5.
-) (Vorlagen/robotersysteme.tex [19
+) (Vorlagen/robotersysteme.tex [21
 
 
 ]
 chapter 6.
-<./Abbildungen//PR2-1.jpg, id=283, 662.475pt x 819.06pt>
+<./Abbildungen//PR2-1.jpg, id=300, 662.475pt x 819.06pt>
 File: ./Abbildungen//PR2-1.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-1.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-1.jpg  used on input line 14.
 (pdftex.def)             Requested size: 115.06552pt x 142.26378pt.
-<./Abbildungen//PR2-2.jpg, id=284, 501.875pt x 379.4175pt>
+<./Abbildungen//PR2-2.jpg, id=301, 501.875pt x 379.4175pt>
 File: ./Abbildungen//PR2-2.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-2.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-2.jpg  used on input line 16.
 (pdftex.def)             Requested size: 188.17969pt x 142.26378pt.
-<./Abbildungen//PR2-3.jpg, id=285, 419.5675pt x 639.38875pt>
+<./Abbildungen//PR2-3.jpg, id=302, 419.5675pt x 639.38875pt>
 File: ./Abbildungen//PR2-3.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-3.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-3.jpg  used on input line 18.
 (pdftex.def)             Requested size: 93.35507pt x 142.26378pt.
-[20
+[22
 
 
  <./Abbildungen//PR2-1.jpg> <./Abbildungen//PR2-2.jpg> <./Abbildungen//PR2-3.jp
@@ -2067,12 +2110,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [21] [22
+) [23] [24
 
 
 ]
 chapter without number
-[23
+[25
 
 
 ] (main.aux (Vorlagen/cover.aux) (Vorlagen/selbst.aux)
@@ -2093,11 +2136,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50392 strings out of 479799
- 1150432 string characters out of 2879595
- 2185601 words of memory out of 3000000
- 66141 multiletter control sequences out of 15000+200000
- 612854 words of font info for 246 fonts, out of 3000000 for 9000
+ 50424 strings out of 479799
+ 1151232 string characters out of 2879595
+ 2185822 words of memory out of 3000000
+ 66160 multiletter control sequences out of 15000+200000
+ 613114 words of font info for 250 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
  110i,21n,113p,10697b,2317s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
@@ -2115,9 +2158,9 @@ fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (30 pages, 720706 bytes).
+Output written on main.pdf (32 pages, 778301 bytes).
 PDF statistics:
- 491 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 44833 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 44843 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -1,5 +1,7 @@
 \chapter{Stand der Technik}
-
+% Ersten Satz noch ändern nachdem das Kapitel fertig ist.
+% Schauen, dass eine konsistente Schreibweise benutzt wird. Also z.B. einheitliches Wort für "Umweltzustand", oder was auch immer ich dafür wähle.
+% Ereignis und Umweltzustand werden irgendwie gleich benutzt.
 In diesem Kapitel wird auf den Stand der Technik eingegangen. Im weitesten zitiere ich hier die wissenschaftlichen Paper, auf denen meine Arbeit beruht. Ob man das Kapitel noch weiter einteilen muss, wird sich später zeigen, erstmal lasse ich es ohne Unterkapitel. \\
 Mobile Roboter finden immer mehr Einzug in Umgebungen, welche von Menschen bewohnt sind. Diese Menschen üben Aktivitäten aus, welche in der Folge zu Veränderungen eben dieser Umgebung führen. Man kann davon ausgehen, dass viele dieser Aktivitäten täglichen Routinen mit typischen Mustern folgen, welche von mobilen Robotern erkannt werden und zur robusteren Darstellung ihrer Umgebung genutzt werden können. Mapping in statischen Umgebungen stellt ein weit erforschtes Gebiet dar \cite{Eichler.2006}. Für das Mapping in dynamischen Umgebungen gibt es verschiedene Ansätze. Während ein Ansatz darauf abzielt, sich bewegende Objekte aus der Umgebungsdarstellung herauszufiltern \cite{Hahnel.30Sept.5Oct.2002}, werden in anderen diese Objekte getrackt und als bewegte Landmarken klassifiziert \cite{Montesano.2008}. Diese separations-basierten Ansätze können jedoch nicht auf Langzeitveränderungen der Umgebungsstruktur eingehen. \\
 Im Gegensatz hierzu stehen adaptive Ansätze, welche davon ausgehen, dass die Karte niemals komplett ist und diese durch kontinuierliches Mapping aktualisieren. So können der Karte durch neue Observierungen des mobilen Roboters neue Features hinzugefügt werden 
@@ -93,4 +95,50 @@ Um einen in der Zukunft liegenden Umweltstatus prognostizieren zu könne, werden
 	p(t) = \varsigma(\mu + \sum_{l=1}^{m} |\gamma_l|\cos(\omega_k t + arg(\gamma_l)))
 	\label{eq:State_probability}
 \end{equation}
-berechnet. Die Funktion $\varsigma(.)$ sorgt dafür, dass $p(t) \in [0,1]$. Der optimale Wert für $m$ wird wie schon in \cite{Krajnik.2014} so gewählt, dass der Prädiktionsfehler $\epsilon_p$ minimiert wird. 
+berechnet. Die Funktion $\varsigma(.)$ sorgt dafür, dass $p(t) \in [0,1]$. Der optimale Wert für $m$ wird wie schon in \cite{Krajnik.2014} so gewählt, dass der Prädiktionsfehler $\epsilon_p$ minimiert wird. \\
+Eine weitere Methodik zur Modellierung von Umweltzuständen wird in \cite{Jovan.2016} vorgestellt. Die hier genannte Methode beruht auf der Kombination von zeitveränderlichen Poisson-Prozessen und einer Frequenzanalyse. Die Häufigkeit des Auftretens eines Ereignisses innerhalb eines Zeitintervalls wird gezählt. Somit kann die Darstellung des simplen Auftretens- bzw. Nichtauftretens eines Umweltzustandes \cite{Krajnik.2014} um dessen \" Intensität \" erweitert werden. Zur Modellierung dieser Aktivitäten wird das Vorhandensein von Umweltzuständen mit Hilfe von Poisson-Prozessen modelliert. Wie schon  in Abschnitt \ref{sec.Poissonverteilung} beschrieben, wird auch hier die Poisson-Verteilung mittels:
+\begin{equation}
+	P(N;\lambda) = \frac{e^\ind{-\lambda} \lambda^N}{N!}	N=0,1,2,\dots
+\end{equation}
+
+wobei $P(N;\lambda)$ die Wahrscheinlichkeit $P$ für den Fall beschreibt, dass innerhalb eines Zeitintervalls $\Delta t$ mit einer durchschnittlichen Aktivitätenanzahl von $\lambda$ exakt $N$ Aktivitäten vorkommen. Die Daten in \cite{Jovan.2016} wurden von einem mobilen Metralabs Scitos A5-Roboter aufgenommen, welcher sich, ausgestattet mit einem robusten Personen-Tracking-Algorithmus, einen Monat lang in einem Bürogebäude bewegte. Die Abhängigkeit der durchschnittlichen Aktivitätenanzahl $\lambda$ vom betrachteten Zeitintervall wird durch $\lambda (t_i, t_j)$ ausgedrückt, wobei  $t_i$ den Anfangszeitpunkt und $t_j$ den Endzeitpunkt des Intervalls beschreibt. Da die von dem Roboter aufgenommenen Daten nur einen kleinen Teil der Gesamtheit an Aktivitäten aufzeichnen kann, wird $\lambda$ mittels einer Konfidenz-basierten Schätzung bestimmt. Der Poisson-Parameter $\lambda$ folgt hierbei einer Gammaverteilung:
+\begin{equation}
+	\lambda \sim \Gamma(\lambda ; \alpha, \beta)
+\end{equation}
+Die a-posteriori Wahrscheinlichkeit für $\lambda (t_i, t_j)$ berechnet sich unter Berücksichtigung der aufgenommenen Daten nun zu:
+\begin{equation}
+	P(\lambda | x_1, \dots, x_n) = \Gamma(\lambda, \alpha + \sum_{i=1}^{n} x_i, \beta +n)
+\end{equation}
+wobei $x_1, \dots , x_n$ die im betreffenden Intervall aufgenommenen Daten bezeichnet, der Parameter $\alpha$ steht für den Formfaktor, $\beta$ für den inversen Skalenparameter der Gammaverteilung.
+% Hier dann noch das Paper von Marvin zitieren, wo die Bestimmung von alpha und beta deutlich anschaulicher und inkrementell beschrieben wird. 
+Der Datensatz wird in Wochen eingeteilt, für ein Zeitintervall wird eine Dauer von zehn Minuten gewählt. Die Maximum a posteriori-Wahrscheinlichkeit (MAP) jedes Parameters $\lambda(t_i, t_j)$ wird als Punktschätzung für $\lambda$ gewählt. Die Verknüpfung sämtlicher Punktschätzungen über den definierten Zeitraum einer Woche ergibt das Poisson-Prozess-Model, welches in \bild{Poisson-Prozess-Modell} grafisch aufgezeichnet ist. 
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[]{Poisson-Prozess-Modell}
+		\caption{Poisson-Prozess-Modell Quelle (Jovan.2016)}
+		\label{fig.Poisson-Prozess-Modell}
+	\end{center}
+\end{figure}
+Für jedes $\lambda$ wurden die Daten von vier aufeinanderfolgenden Wochen verwendet, die roten Schranken zeigen die oberen und unteren Grenzen des Konfidenzintervals für jedes $\lambda$. \\
+Nach der Berechnung des Poisson-Prozess-Modells wird nun die Fouriertransformation auf $\lambda (t)$ angewendet. Ebenso wie in \cite{Krajnik.2014} werden die $l$ Frequenzen mit den höchsten Amplituden zur Konstruktion von $\lamdba ' = IFT(F'(\omega))$ verwendet. Im Gegensatz zu der in \cite{Krajnik.2014} verwendeten und hier als $l Best Amplitude Model (BAM)$ bezeichneten Methode wird in \cite{Jovan.2016} die $l Addition Amplitude Model (AAM)$ Methode verwendet. Es wird angeführt, dass das BAM den Betrag des Original-Signals nicht komplett abbilden kann, sofern die Sampling-Rate der Daten deutlich höher ist als die höchste beobachtete Frequenz. \\ AAM hingegen berechnet das Fourierspektrum der Poisson-Prozess-Modells, findet die Frequnz $\omega_k$ mit der höchsten Amplitude und zieht es von den Daten ab. Die modifizierten Daten werden wieder transformiert und das Frequenzspektrum erneut berechnet. Findet sich in diesem Frequenzspektrum eine bereits vorher identifizierte Frequenz, so wird dessen neuerliche Amplitude auf die bereits vorhandene addiert, und die Daten erneut modifiziert. Dieses Vorgehen wird bis zur Identifikation der l Frequenzen mit den höchsten Amplituden wiederholt. Abbildung xy bietet einen Vergleich von den beiden Methoden zur Abbildung des Poisson-Prozess-Modells. Aus der Grafik wird ersichtlich, dass das AAM die Beträge des Original-Modells deutlich besser abbilden kann als das BAM. Hier schreibe ich jetzt einfach noch ein bisschen Text um zu schauen, ob es erneut meine Formatierung zerschießt.
+Sollte dies nicht der Fall sein, muss ich jetzt einfach so lange weiterschreiben, bis ich die nächste Seite erreiche, um mein tolles Bild einzufügen sykirim ahmenakoy.
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[]{Vergleich-l_BAM-l_AAM}
+		\caption{Vergleich $l$ Best Amplitude Model und $l$ Addition Amplitude Model Quelle (Jovan.2016)}
+		\label{fig.BAM_AAM_Vergleich}
+	\end{center}
+\end{figure}
+
+% sollte ich hier vllt auch die Tabelle von Seite 5 reinpacken, welche AAM und BAM vergleicht?
+% hier noch von Marvin reinschreiben, wie er die alpha und beta Werte für die Gamma-Funktion berechnet, und rausarbeiten, dass ich nur sein Paper zitiere, weil er hier auf die Occupancy-Grids eingeht.
+Eine genauere Beschreibung der Kalkulation der Formfaktors $\alpha$ und des inversen Skalenparameters $\beta$ der Gammafunktion findet sich in \cite{Stuede.2020}. Hier wird der Parameter $\lambda$ für jede Zelle eines 2D-Gitters berechnet. Die Wahrscheinlichkeit
+für die Anzahl $N$ an Aktivitäten innerhalb eines Zeitintervalls in einer Zelle des Gitters kann dargestellt werden über:
+\begin{equation}
+	P_\ind{ij \tau} (N(t) = k) = \frac{(\lambda_\ind{ij \tau}(t-t_\tau))^k}{k!} e^\ind{-\lambda_\ind{ij\tau} (t- t_\tau)}
+\end{equation}
+wobei $\lambda_\ind{ij \tau}$ für die Rate an Aktivitäten der Zelle $(i,j)$ innerhalb des Zeitintervalls $tau$ steht. Die der Zelle zugehörigen Parameter $\alpha_\ind{ij\tau}$ sowie $\beta_\ind{ij\tau}$ inkrementell foor jeden Zeitschritt $\sigma$  mittels der Vorschrift:
+\begin{equation}
+	\alpha_\sigma = \alpha_\ind{\sigma - 1} + x_\sigma \boldsymbol{l}_D (\boldsymbol{x_R}, t_\sigma), 
+\end{equation}
+

@@ -2371,11 +2371,17 @@
     <bcf:citekey order="19">Krajnik.2015</bcf:citekey>
     <bcf:citekey order="20">Krajnik.2014</bcf:citekey>
     <bcf:citekey order="21">Krajnik.2014</bcf:citekey>
-    <bcf:citekey order="22">Ber59</bcf:citekey>
-    <bcf:citekey order="23">Hussong08</bcf:citekey>
-    <bcf:citekey order="24">Wintermantel09</bcf:citekey>
-    <bcf:citekey order="25">WillowGarage2010</bcf:citekey>
-    <bcf:citekey order="26">TUM2011</bcf:citekey>
+    <bcf:citekey order="22">Jovan.2016</bcf:citekey>
+    <bcf:citekey order="23">Krajnik.2014</bcf:citekey>
+    <bcf:citekey order="24">Jovan.2016</bcf:citekey>
+    <bcf:citekey order="25">Krajnik.2014</bcf:citekey>
+    <bcf:citekey order="26">Krajnik.2014</bcf:citekey>
+    <bcf:citekey order="27">Jovan.2016</bcf:citekey>
+    <bcf:citekey order="28">Ber59</bcf:citekey>
+    <bcf:citekey order="29">Hussong08</bcf:citekey>
+    <bcf:citekey order="30">Wintermantel09</bcf:citekey>
+    <bcf:citekey order="31">WillowGarage2010</bcf:citekey>
+    <bcf:citekey order="32">TUM2011</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
