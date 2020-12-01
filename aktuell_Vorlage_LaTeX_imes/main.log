@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  30 NOV 2020 19:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  1 DEC 2020 13:26
 entering extended mode
 **./main.tex
 (main.tex
@@ -1590,18 +1590,11 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Hahnel.30Sept.5Oct.2002
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 84.
 Package biblatex Info: Reference segment=0 on input line 84.
- ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count505
 \scratchdimen=\dimen331
@@ -1863,65 +1856,64 @@ chapter 1.
 ]
 chapter 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 6.
+(Font)              scaled to size 13.24796pt on input line 7.
 [2
 
 
 ]
-<./Abbildungen//signal.jpg, id=137, 175.857pt x 135.50626pt>
+<./Abbildungen//signal.jpg, id=138, 175.857pt x 135.50626pt>
 File: ./Abbildungen//signal.jpg Graphic file (type jpg)
 <use ./Abbildungen//signal.jpg>
-Package pdftex.def Info: ./Abbildungen//signal.jpg  used on input line 39.
+Package pdftex.def Info: ./Abbildungen//signal.jpg  used on input line 42.
 (pdftex.def)             Requested size: 184.63382pt x 142.26378pt.
-<./Abbildungen//amplituden_phasenspektrum.jpg, id=138, 180.07275pt x 191.5155pt
+<./Abbildungen//amplituden_phasenspektrum.jpg, id=139, 180.07275pt x 191.5155pt
 >
 File: ./Abbildungen//amplituden_phasenspektrum.jpg Graphic file (type jpg)
 <use ./Abbildungen//amplituden_phasenspektrum.jpg>
 Package pdftex.def Info: ./Abbildungen//amplituden_phasenspektrum.jpg  used on 
-input line 41.
+input line 44.
 (pdftex.def)             Requested size: 133.7738pt x 142.26378pt.
  [3 <./Abbildungen//signal.jpg> <./Abbildungen//amplituden_phasenspektrum.jpg>]
-<./Abbildungen//abtasttheorem.jpg, id=157, 803.0pt x 259.97125pt>
+<./Abbildungen//abtasttheorem.jpg, id=164, 803.0pt x 259.97125pt>
 File: ./Abbildungen//abtasttheorem.jpg Graphic file (type jpg)
 <use ./Abbildungen//abtasttheorem.jpg>
 Package pdftex.def Info: ./Abbildungen//abtasttheorem.jpg  used on input line 7
-3.
+7.
 (pdftex.def)             Requested size: 439.42136pt x 142.26378pt.
 
-Overfull \hbox (1.96017pt too wide) in paragraph at lines 73--74
+Overfull \hbox (1.96017pt too wide) in paragraph at lines 77--78
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 [][][]|\T1/ptm/m/n/12 (+20) Ori-gi-nal-si-gnal (grau) und durch Ab-tas-tung re-
 kon-stru-ier-tes Si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/ptm/m/n/12 (+20) gnal (rot) Quelle(https://www.geothermie.de/bibliothek/lex
 ikon-der-
  []
 
 [4] [5 <./Abbildungen//abtasttheorem.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--106
+<./Abbildungen//Binomialverteilung.jpg, id=183, 226.446pt x 155.3805pt>
+File: ./Abbildungen//Binomialverteilung.jpg Graphic file (type jpg)
+<use ./Abbildungen//Binomialverteilung.jpg>
+Package pdftex.def Info: ./Abbildungen//Binomialverteilung.jpg  used on input l
+ine 98.
+(pdftex.def)             Requested size: 207.33426pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
 
  []
 
-[6]) (Vorlagen/stand_der_technik.tex [7]
+[6 <./Abbildungen//Binomialverteilung.jpg>]) (Vorlagen/stand_der_technik.tex
+[7]
 chapter 3.
-! Extra }, or forgotten $.
-l.9 ...en Funktionen der Zeit sind, also $p_j (t)}
-                                                  $ gilt, und diesen zeitlic...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--10
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
 
  []
 
@@ -1929,75 +1921,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
 
 ]
-<./Abbildungen//example_of_measured_state_and_prediction.jpg, id=205, 284.86424
+<./Abbildungen//example_of_measured_state_and_prediction.jpg, id=223, 284.86424
 pt x 179.4705pt>
 File: ./Abbildungen//example_of_measured_state_and_prediction.jpg Graphic file 
 (type jpg)
 <use ./Abbildungen//example_of_measured_state_and_prediction.jpg>
 Package pdftex.def Info: ./Abbildungen//example_of_measured_state_and_predictio
-n.jpg  used on input line 27.
+n.jpg  used on input line 31.
 (pdftex.def)             Requested size: 284.86354pt x 179.47005pt.
  [9]
-<./Abbildungen//Prediction_Reconstruction_Error.jpg, id=216, 455.50458pt x 280.
-42796pt>
-File: ./Abbildungen//Prediction_Reconstruction_Error.jpg Graphic file (type jpg
-)
-<use ./Abbildungen//Prediction_Reconstruction_Error.jpg>
-Package pdftex.def Info: ./Abbildungen//Prediction_Reconstruction_Error.jpg  us
-ed on input line 41.
-(pdftex.def)             Requested size: 455.50346pt x 280.42728pt.
 
-Overfull \hbox (18.04228pt too wide) in paragraph at lines 41--42
- [] 
- []
+LaTeX Warning: Reference `fig.fig.predict_reconstruct_error' on page 10 undefin
+ed on input line 43.
 
+<Abbildungen/predict_reconstruct_error.png, id=236, 788.9475pt x 487.22025pt>
+File: Abbildungen/predict_reconstruct_error.png Graphic file (type png)
+<use Abbildungen/predict_reconstruct_error.png>
+Package pdftex.def Info: Abbildungen/predict_reconstruct_error.png  used on inp
+ut line 47.
+(pdftex.def)             Requested size: 306.22148pt x 189.10814pt.
 
-Overfull \hbox (25.20432pt too wide) in paragraph at lines 48--53
+Overfull \hbox (20.78694pt too wide) in paragraph at lines 55--61
 \T1/ptm/m/n/12 (-20) Einen Ver-gleich zwi-schen der in [[]Kra+14[]] be-schrie-b
-e-nen "Fre-quen-cy Map En-han-ce-ment"(FreMEn)
+e-nen "Fre-quen-cy Map En-han-ce-ment"Methode
  []
 
 [10 <./Abbildungen//example_of_measured_state_and_prediction.jpg>] [11 <./Abbil
-dungen//Prediction_Reconstruction_Error.jpg>] [12]
-<./Abbildungen//PerGaM_vs_FreMEn.jpg, id=248, 282.45525pt x 242.70676pt>
+dungen/predict_reconstruct_error.png (PNG copy)>]
+<./Abbildungen//PerGaM_vs_FreMEn.jpg, id=264, 282.45525pt x 242.70676pt>
 File: ./Abbildungen//PerGaM_vs_FreMEn.jpg Graphic file (type jpg)
 <use ./Abbildungen//PerGaM_vs_FreMEn.jpg>
 Package pdftex.def Info: ./Abbildungen//PerGaM_vs_FreMEn.jpg  used on input lin
-e 75.
+e 83.
 (pdftex.def)             Requested size: 282.45454pt x 242.70615pt.
- [13 <./Abbildungen//PerGaM_vs_FreMEn.jpg>] [14]
-<./Abbildungen//Poisson-Prozess-Modell.jpg, id=277, 278.84175pt x 152.9715pt>
-File: ./Abbildungen//Poisson-Prozess-Modell.jpg Graphic file (type jpg)
-<use ./Abbildungen//Poisson-Prozess-Modell.jpg>
-Package pdftex.def Info: ./Abbildungen//Poisson-Prozess-Modell.jpg  used on inp
-ut line 117.
-(pdftex.def)             Requested size: 278.84105pt x 152.9711pt.
-
-! Undefined control sequence.
-<recently read> \lamdba 
-                        
-l.123 ... Amplituden zur Konstruktion von $\lamdba
-                                                   ' = IFT(F'(\omega))$ verw...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<./Abbildungen//Vergleich-l_BAM-l_AAM.jpg, id=281, 269.20575pt x 153.57375pt>
-File: ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg Graphic file (type jpg)
-<use ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg>
-Package pdftex.def Info: ./Abbildungen//Vergleich-l_BAM-l_AAM.jpg  used on inpu
-t line 127.
-(pdftex.def)             Requested size: 269.20508pt x 153.57336pt.
-[15] [16 <./Abbildungen//Poisson-Prozess-Modell.jpg>]) (Vorlagen/tipps.tex
-[17 <./Abbildungen//Vergleich-l_BAM-l_AAM.jpg>]
+ [12] [13 <./Abbildungen//PerGaM_vs_FreMEn.jpg>] [14]
+<Abbildungen/poisson-prozess-model1.png, id=305, 1445.4pt x 729.927pt>
+File: Abbildungen/poisson-prozess-model1.png Graphic file (type png)
+<use Abbildungen/poisson-prozess-model1.png>
+Package pdftex.def Info: Abbildungen/poisson-prozess-model1.png  used on input 
+line 129.
+(pdftex.def)             Requested size: 306.22148pt x 154.63686pt.
+ [15]
+<Abbildungen/BAM_AAM.png, id=321, 1445.4pt x 766.062pt>
+File: Abbildungen/BAM_AAM.png Graphic file (type png)
+<use Abbildungen/BAM_AAM.png>
+Package pdftex.def Info: Abbildungen/BAM_AAM.png  used on input line 140.
+(pdftex.def)             Requested size: 306.22148pt x 162.29214pt.
+ [16 <./Abbildungen/poisson-prozess-model1.png (PNG copy)>]) (Vorlagen/tipps.te
+x [17 <./Abbildungen/BAM_AAM.png (PNG copy)>]
 chapter 4.
 [18
 
 
 ]
-<./Abbildungen//template_einfach.pdf, id=316, 312.16624pt x 183.68625pt>
+<./Abbildungen//template_einfach.pdf, id=347, 312.16624pt x 183.68625pt>
 File: ./Abbildungen//template_einfach.pdf Graphic file (type pdf)
 <use ./Abbildungen//template_einfach.pdf>
 Package pdftex.def Info: ./Abbildungen//template_einfach.pdf  used on input lin
@@ -2011,17 +1988,17 @@ chapter 5.
 
 ]
 chapter 6.
-<./Abbildungen//PR2-1.jpg, id=339, 662.475pt x 819.06pt>
+<./Abbildungen//PR2-1.jpg, id=370, 662.475pt x 819.06pt>
 File: ./Abbildungen//PR2-1.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-1.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-1.jpg  used on input line 14.
 (pdftex.def)             Requested size: 115.06552pt x 142.26378pt.
-<./Abbildungen//PR2-2.jpg, id=340, 501.875pt x 379.4175pt>
+<./Abbildungen//PR2-2.jpg, id=371, 501.875pt x 379.4175pt>
 File: ./Abbildungen//PR2-2.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-2.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-2.jpg  used on input line 16.
 (pdftex.def)             Requested size: 188.17969pt x 142.26378pt.
-<./Abbildungen//PR2-3.jpg, id=341, 419.5675pt x 639.38875pt>
+<./Abbildungen//PR2-3.jpg, id=372, 419.5675pt x 639.38875pt>
 File: ./Abbildungen//PR2-3.jpg Graphic file (type jpg)
 <use ./Abbildungen//PR2-3.jpg>
 Package pdftex.def Info: ./Abbildungen//PR2-3.jpg  used on input line 18.
@@ -2048,20 +2025,24 @@ chapter without number
 [25
 
 
-] [26] (main.aux (Vorlagen/cover.aux) (Vorlagen/selbst.aux)
+] [26] [27] (main.aux (Vorlagen/cover.aux) (Vorlagen/selbst.aux)
 (Vorlagen/aufgabenstellung.aux) (Vorlagen/kurzfassung.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50476 strings out of 479799
- 1152392 string characters out of 2879595
- 2186036 words of memory out of 3000000
- 66178 multiletter control sequences out of 15000+200000
- 614612 words of font info for 266 fonts, out of 3000000 for 9000
+ 50511 strings out of 479799
+ 1153103 string characters out of 2879595
+ 2186379 words of memory out of 3000000
+ 66191 multiletter control sequences out of 15000+200000
+ 615512 words of font info for 274 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
  110i,21n,113p,10697b,2317s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
@@ -2069,20 +2050,19 @@ Here is how much of TeX's memory you used:
 /public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
 .pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utm
-b8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (33 pages, 804098 bytes).
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/
+fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/ti
+mes/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (34 pages, 1153076 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 141 named destinations out of 1000 (max. 500000)
- 44843 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 610 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 44848 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -100,6 +100,51 @@
       \verb http://site.ebrary.com/lib/alltitles/docDetail.action?docID=10145474
       \endverb
     \endentry
+    \entry{Hahnel.2002}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f73b712543c27dee969d2d4d8f4a580c}{%
+           family={Hahnel},
+           familyi={H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=eb78c5f8395d5fcaee170a1b06acf952}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bce2faa6685176847af3844f1c3dfef2}{%
+           family={Burgard},
+           familyi={B\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3b4b8ccf5d4ed2e9d3ba9c3075f4f544}
+      \strng{fullhash}{3b4b8ccf5d4ed2e9d3ba9c3075f4f544}
+      \strng{bibnamehash}{3b4b8ccf5d4ed2e9d3ba9c3075f4f544}
+      \strng{authorbibnamehash}{3b4b8ccf5d4ed2e9d3ba9c3075f4f544}
+      \strng{authornamehash}{3b4b8ccf5d4ed2e9d3ba9c3075f4f544}
+      \strng{authorfullhash}{3b4b8ccf5d4ed2e9d3ba9c3075f4f544}
+      \field{labelalpha}{HSB02}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE/RSJ International Conference on Intelligent Robots and System}
+      \field{isbn}{0-7803-7398-7}
+      \field{title}{Map building with mobile robots in populated environments}
+      \field{year}{30 Sept.-5 Oct. 2002}
+      \field{pages}{496\bibrangedash 501}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IRDS.2002.1041439
+      \endverb
+      \verb{file}
+      \verb http://ieeexplore.ieee.org/document/1041439/
+      \endverb
+    \endentry
     \entry{Hussong08}{inproceedings}{}
       \name{author}{8}{}{%
         {{hash=add5ee36399081fe49b6788a11aeb0b3}{%
@@ -521,6 +566,97 @@
       \verb 10.1177/0278364909340592
       \endverb
     \endentry
+    \entry{Teschl.2014}{book}{}
+      \name{author}{2}{}{%
+        {{hash=bfd95d4a44a527a2547850d8c4728e5d}{%
+           family={Teschl},
+           familyi={T\bibinitperiod},
+           given={Gerald},
+           giveni={G\bibinitperiod}}}%
+        {{hash=71b8ca49f3c02b6780508c1cee2d647e}{%
+           family={Teschl},
+           familyi={T\bibinitperiod},
+           given={Susanne},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{937d1ce79c8ccbf038305c3ab206ade6}
+      \strng{fullhash}{937d1ce79c8ccbf038305c3ab206ade6}
+      \strng{bibnamehash}{937d1ce79c8ccbf038305c3ab206ade6}
+      \strng{authorbibnamehash}{937d1ce79c8ccbf038305c3ab206ade6}
+      \strng{authornamehash}{937d1ce79c8ccbf038305c3ab206ade6}
+      \strng{authorfullhash}{937d1ce79c8ccbf038305c3ab206ade6}
+      \field{labelalpha}{TT14}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lernen Sie gerne etwas Langweiliges, von dem Sie nicht wissen, wozu es gut ist? Nein? Wir auch nicht! Deshalb war unser Leitsatz: {"}Mathematik ist praxisrelevant und interessant{"}. In diesem Lehrbuch werden die mathematischen Grundlagen exakt und dennoch anschaulich und gut nachvollziehbar vermittelt. Sie werden durchgehend anhand zahlreicher Musterbeispiele illustriert, durch Anwendungen in der Informatik motiviert und durch historische Hintergründe oder Ausblicke in angrenzende Themengebiete aufgelockert. Am Ende jedes Kapitels befinden sich Kontrollfragen, die das Verständnis testen und typische Fehler bzw. Missverständnisse ausräumen. Zusätzlich helfen zahlreiche Aufwärmübungen (mit vollständigem Lösungsweg) und weiterführende Übungsaufgaben das Erlernte zu festigen und praxisrelevant umzusetzen. Dieses Lehrbuch ist daher auch sehr gut zum Selbststudium geeignet. Ergänzend wird in eigenen Abschnitten das Computeralgebrasystem Mathematica vorgestellt und eingesetzt, wodurch der Lehrstoff visualisiert und somit das Verständnis erleichtert werden kann}
+      \field{edition}{3., überarb. Aufl.}
+      \field{isbn}{9783642542749}
+      \field{series}{eXamen.press}
+      \field{title}{Mathematik für Informatiker: Band 2: Analysis und Statistik}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1007/978-3-642-54274-9
+      \endverb
+      \verb{file}
+      \verb 36aaccfe-232b-468c-b550-791159b72422:C\:\\Users\\Adrian\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\ddubl4mdma5jcncmxt34htleb4j45g3jq41mwcwparid\\Citavi Attachments\\36aaccfe-232b-468c-b550-791159b72422.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Wendemuth.2005}{book}{}
+      \name{author}{2}{}{%
+        {{hash=27165e4b2f593fb996173673b700d92c}{%
+           family={Wendemuth},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=214d3d250c7e86e0307c7cffda25b532}{%
+           family={Andelic},
+           familyi={A\bibinitperiod},
+           given={Edin},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag Berlin Heidelberg}%
+      }
+      \strng{namehash}{2131ecf99c0a58707241d166429c460f}
+      \strng{fullhash}{2131ecf99c0a58707241d166429c460f}
+      \strng{bibnamehash}{2131ecf99c0a58707241d166429c460f}
+      \strng{authorbibnamehash}{2131ecf99c0a58707241d166429c460f}
+      \strng{authornamehash}{2131ecf99c0a58707241d166429c460f}
+      \strng{authorfullhash}{2131ecf99c0a58707241d166429c460f}
+      \field{labelalpha}{WA05}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mit der flächendeckenden Einführung von Digitalen Signalprozessoren und Rechnern eröffnet sich heute eine universell verfügbare Möglichkeit zur Verarbeitung von Signalen von der Kaffeemaschine bis zum Kfz. Die dabei verwendete digitale Signalverarbeitung wird als Verarbeitung deterministischer und auch stochastischer Signale in diesem Buch vorgestellt. Zunächst werden physikalische und mathematische Signale und Signalparameter beschrieben, gefolgt von einer Betrachtung analoger zeitkontinuierlicher Systeme. Anschlie{ß}end werden zeitdiskrete, lineare, zeitinvariante Systeme und die Verarbeitung}
+      \field{isbn}{9783540267706}
+      \field{series}{Springer-Lehrbuch}
+      \field{title}{Grundlagen der digitalen Signalverarbeitung: Ein mathematischer Zugang}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1007/b138044
+      \endverb
+      \verb{file}
+      \verb c231fc70-e8c2-4ed4-89fb-9a00e0f0f3e7:C\:\\Users\\Adrian\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\ddubl4mdma5jcncmxt34htleb4j45g3jq41mwcwparid\\Citavi Attachments\\c231fc70-e8c2-4ed4-89fb-9a00e0f0f3e7.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://gbv.eblib.com/patron/FullRecord.aspx?p=1156293
+      \endverb
+      \verb{url}
+      \verb http://gbv.eblib.com/patron/FullRecord.aspx?p=1156293
+      \endverb
+    \endentry
     \entry{Wintermantel09}{book}{}
       \name{author}{2}{}{%
         {{hash=8276b2e35a503334989d4a67090e80a8}{%
@@ -591,7 +727,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Hahnel.30Sept.5Oct.2002}
 \endrefsection
 \endinput
 

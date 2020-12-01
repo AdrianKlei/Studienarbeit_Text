@@ -25,6 +25,6 @@
 \contentsline {chapter}{\numberline {6}(Beispielkapitel) Robotersysteme}{22}{chapter.6}%
 \contentsline {section}{\numberline {6.1}PR2}{22}{section.6.1}%
 \contentsline {section}{\numberline {6.2}ROS}{23}{section.6.2}%
-\contentsline {chapter}{Anhang}{24}{chapter*.24}%
-\contentsline {chapter}{\nonumberline Literatur}{25}{chapter*.25}%
+\contentsline {chapter}{Anhang}{24}{chapter*.25}%
+\contentsline {chapter}{\nonumberline Literatur}{25}{chapter*.26}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
